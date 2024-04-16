@@ -1,0 +1,868 @@
+/************IPad**************/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        background-color: rgb(3, 78, 13);
+    }
+
+   
+    
+    .nav-section {
+        padding: 20px 0;
+    }
+    .top-section .social-icon{
+        display: none;
+      }
+      .mobilemenu {
+        display: block;
+    }
+    .menu-bar {
+        display: none;
+    }
+    .nav-section .logo{
+        padding: 0;
+      }
+    /* .menu-item{
+        padding: 20px 0;
+    } */
+
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu .slicknav_icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .slicknav_menu {
+        background: none;
+        padding: 2px 3px;
+    }
+
+    .slicknav_btn {
+        position: relative;
+        background-color: transparent;
+    }
+
+    .slicknav_nav {
+        background-color: #03263e;
+        position: absolute;
+        right: 100px;
+        top: 100%;
+        width: 40%;
+    }
+    .slicknav_nav ul {
+        list-style: none;
+        /* overflow: hidden; */
+        margin: 0 2px 0 2px;
+    }
+    .slicknav_nav a:hover {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        background: #131138;
+        color: #fff;
+    }
+    .slicknav_nav .slicknav_item a {
+        padding: 0 10px;
+        margin: 0 4px;
+    }
+    .search{
+        margin-top: 6px;
+    }
+
+    /* banner section start */
+    .banner-section {
+        height: 800px;
+    }
+
+    .banner-text {
+        padding: 55px 0 35px 0;
+        /* border: 1px solid red; */
+    }
+
+    .banner-text .learge-title {
+        font-size: 50px;
+        line-height: 60px;
+        padding: 0 40% 0 0;
+    }
+
+    .banner-text h4 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    /* banner section end  */
+    /* Apoinment and hour section start */
+    .apoinment-hour-section {
+        margin-top: -320px;
+    }
+
+    .card-lg {
+        padding: 30px 35px 0 35px;
+    }
+    .card-content{
+        background-color: #ffffff;
+        padding: 70px 30px 60px 30px;
+      }
+
+    /* Apoinment and hour section end */
+
+    /* service section start */
+    .box .box-content {
+        padding: 90px 20px 70px 30px;
+    }
+    /* service section end */
+
+
+    /* our patient say obout us section start */
+    .our-experienced-doctors{
+        padding: 55px 0 0 0;
+      }
+      .our-experienced-doctors .title p{
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      .our-experienced-doctors .text-title{
+        font-size: 22px;
+      }
+      .our-experienced-doctors p{
+        margin-bottom: 25px;
+      }
+      
+    /* about section start  */
+    .about-section{
+        padding:30px 0 40px 0;
+        /* border: 1px solid rgb(138, 27, 4); */
+    }
+    .about-container p {
+        font-size: 18px;
+    }
+
+    /* our patient say obout us section end */
+
+    /* base section start  */
+    .base-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* base section end  */
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: brown !important;
+    }
+    .top-section .content .contact{
+        display: none;
+    }
+    .nav-section {
+        padding: 15px 0;
+    }
+
+    .mobilemenu {
+        display: block;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+    .nav-section .logo{
+        padding: 0;
+      }
+
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu .slicknav_icon {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    .slicknav_menu {
+        background: none;
+        padding: 0;
+    }
+
+    .slicknav_btn {
+        position: relative;
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .slicknav_nav {
+        background-color: #03263e;
+        position: absolute;
+        right: 115px;
+        top: 100%;
+        width: 40%;
+    }
+
+    .slicknav_nav p {
+        padding: 10px 0 0 20px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+
+    .dropdown-menu-custom .dropdown-menu {
+        transform: translate3d(105px, 20px, 0px) !important;
+    }
+
+    .slicknav_nav a:hover {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        background: #033150;
+        color: #ffffff;
+    }
+
+    .slicknav_nav a {
+        padding: 2px 0;
+        margin: 0;
+    }
+    .search{
+        margin-top: 6px;
+    }
+
+    /* banner section start */
+    .banner-section {
+        height: 800px;
+    }
+
+    .banner-text {
+        padding: 95px 0 45px 0;
+        /* border: 1px solid red; */
+    }
+
+    .banner-text .learge-title {
+        font-size: 50px;
+        line-height: 60px;
+        padding: 0 40% 0 0;
+    }
+
+    .banner-text h6 {
+        padding: 0 35% 0 0;
+    }
+
+    .banner-text h4 {
+        padding: 0 35% 0 0;
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    /* banner section end  */
+
+    /* our patient say obout us start */
+    .about-section {
+        padding: 30px 0;
+    }
+
+    /* Apoinment and hour section start */
+    .apoinment-hour-section {
+        margin-top: -240px;
+    }
+
+    .card-lg {
+        margin: 50px 95px 0 95px;
+        padding: 50px 35px 0 35px;
+        margin-bottom: 0px;
+    }
+
+    .our-experienced-doctors .card-lg {
+        margin: 0;
+    }
+
+    /* Apoinment and hour section end */
+
+    /* service section start */
+    .box .box-content {
+        padding: 90px 20px 70px 30px;
+    }
+
+    /* service section end */
+
+
+    /* our patient say obout us section start */
+    .about-container p {
+        font-size: 18px;
+    }
+
+    /* our patient say obout us section end */
+
+    /* base section start  */
+    .base-section .social-icons {
+        display: none;
+    }
+
+
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: rgb(41, 214, 177) !important;
+    }
+
+    /* Top section start  */
+    .top-section {
+        display: none;
+    }
+
+    /* top section end  */
+
+    /* nav section start  */
+    .nav-section {
+        /* display: none; */
+        padding: 5px 0;
+    }
+
+    .nav-section .logo {
+        display: block;
+        height: 100%;
+        padding: 5px 0;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .mobilemenu {
+        display: block;
+    }
+    
+
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu .slicknav_icon {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+
+    .slicknav_menu {
+        background: none;
+        padding: 0;
+    }
+
+    .slicknav_btn {
+        position: relative;
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .slicknav_nav {
+        background-color: #03263e;
+        position: absolute;
+        right: 0px;
+        top: 100%;
+        width: 100%;
+    }
+
+    .slicknav_nav p {
+        padding: 10px 0 0 20px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+
+    .dropdown-menu-custom .dropdown-menu {
+        transform: translate3d(105px, 20px, 0px) !important;
+    }
+
+
+    .slicknav_nav a {
+        padding: 2px 0;
+        margin: 0;
+    }
+
+
+    .search-area img {
+        padding-left: 15px;
+    }
+
+    .search-area img {
+        display: none;
+    }
+
+    /* banner section start */
+    .banner-section {
+        height: 500px;
+    }
+
+    .banner-text {
+        padding: 55px 0 25px 0;
+        /* border: 1px solid red; */
+    }
+
+    .banner-text .learge-title {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 20PX 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .banner-text h6 {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0 20% 0 0;
+        margin-bottom: 15px;
+    }
+
+    .banner-text h4 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 0;
+    }
+
+    /* Apoinment and hour section start */
+    .apoinment-hour-section {
+        margin-top: -100px;
+    }
+
+    .card-lg {
+        padding: 0;
+    }
+
+    .card-content {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .card-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .card-lg h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .card-blue {
+        margin-top: 60px;
+    }
+
+    /* Apoinment and hour section end */
+    /* banner section end  */
+
+
+
+    /* about section start  */
+    .about-section {
+        padding: 40px 0;
+        /* border: 1px solid rgb(138, 27, 4); */
+    }
+
+    .about-section .title {
+        padding: 0;
+        /* border: 1px solid rgb(138, 27, 4); */
+    }
+
+    .about-section .title .title-text {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .about-section .slogan-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .about-section .title p {
+        font-size: 12px;
+    }
+
+    .btn-medium a {
+        font-size: 10px;
+    }
+
+    /* about section end  */
+
+    /* service section start */
+    .service-section {}
+
+    /* box for tritment  */
+    .box .box-content {
+        padding: 20px 0 30px 40px;
+    }
+
+    .box-title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .box .box-content p {
+        display: flex;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 18px;
+    }
+
+    .box .box-content .large-btn a {
+        font-size: 10px;
+    }
+
+    /* box for success count  */
+    .box .count {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .box .count .calender {
+        margin-bottom: 10px;
+    }
+
+    .count .medium-number {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 10px;
+    }
+
+    /* service section end */
+
+
+    /* what we do section start */
+    .timeline-section {
+        height: 950px;
+        padding: 50px 0 75px 0;
+    }
+
+    .what-we-do-section .title {
+        margin-bottom: 40px;
+    }
+
+    .what-we-do-section .title-text {
+        font-size: 28px;
+    }
+
+    .what-we-do-section .title p {
+        font-size: 14px;
+    }
+
+    .facality-skills {
+        margin-top: -110px;
+    }
+
+    .accordion-faciliti .accordion-text p {
+        font-size: 12px;
+    }
+
+    .accordion-faciliti-body p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .what-we-do-section .list-data .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .what-we-do-section .list-data p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .what-we-do-section .list-data h1 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    /* what we do section end */
+
+
+
+
+
+    /* services section start  */
+    /* services section end  */
+
+
+
+    /* our patient say obout us start */
+    .say-about-us .title-text {
+        margin-bottom: 20px;
+    }
+
+    .say-about-us .text-sulg {
+        font-size: 18px;
+    }
+
+    .title-text .title-medium {
+        font-size: 26px;
+    }
+
+    .about-container .profile-small-img {
+        margin-bottom: 10px;
+    }
+
+    .about-container p {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .about-container span {
+        margin-bottom: 10px;
+    }
+
+
+
+
+    /* our patient say obout us start */
+
+
+    /* Special Offers section start */
+    .special-offer {
+        padding: 110px 0 10px 0;
+    }
+
+    .special-offer .title-text {
+        margin-bottom: 100px;
+    }
+
+    .special-offer .title-text p {
+        font-size: 12px;
+        line-height: 22px;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .price-card {
+        position: relative;
+        background-color: #033150;
+    }
+
+    .price-card .price {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        width: 130px;
+        height: 130px;
+        font-weight: 500;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fd5364;
+        color: #ffffff;
+        font-weight: 500;
+        clip-path: circle(50% at 50% 50%);
+    }
+
+    .price-card .price span {
+        font-weight: 400;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    .price-card .price-card-title {
+        background-color: #03263e;
+        padding: 90px 0 50px 0;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .price-card .price-card-title .text-sulg {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .price-card .price-card-title .title-text {
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .price-card .price-card-content p:nth-child(odd) {
+        color: #ffffff;
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .price-card .price-card-content p:nth-child(even) {
+        background-color: #03263e;
+        color: #ffffff;
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .price-card .price-card-btn {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .price-card .price-card-btn a {
+        padding: 10px 20px;
+        border: 1px solid #909090;
+        color: #909090;
+        transition: 0.2s;
+    }
+
+    .price-card .price-card-btn a:hover {
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+
+    /* Special Offers section end */
+
+    /* our-experienced-doctors section start */
+
+    .our-experienced-doctors {
+        padding: 60px 0 15px 0;
+    }
+
+    .our-experienced-doctors .title p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .our-experienced-doctors .text-title {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .our-experienced-doctors p {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .our-experienced-doctors .large-btn {
+        text-align: left;
+    }
+
+    .our-experienced-doctors .card-lg .card-content {
+        background-color: #e9edf0;
+        height: 90%;
+    }
+
+    /* our-experienced-doctors section end */
+
+    /* blog-section start  */
+    .blog-bg {
+        height: 500px;
+    }
+
+    .blog-section .title {
+        padding: 40px 0 0 0;
+    }
+
+    .blog-section .title h4 {
+        font-size: 14px;
+    }
+
+    .blog-section .title .text-title {
+        font-size: 24px;
+        margin-bottom: 26px;
+    }
+
+    .blog-section .title p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .card-area .large-btn a {
+        margin: 0 0 30px 0;
+    }
+
+    /* blog-section end  */
+
+    /* footer section start */
+    .footer-content .footer-top img{
+        width: 100%;
+      }
+    .footer-content .footer-top {
+        padding: 0 0 40px 0;
+    }
+
+    .footer-content .footer-top p {
+        text-align: center;
+        font-size: 18px;
+        padding: 0 7%;
+    }
+
+    .footer-section .footer-help-area {
+        padding: 0 0 40px 0;
+    }
+
+    .footer-section .footer-help-area .title-text {
+        font-size: 38px;
+    }
+
+    .footer-section .footer-form-area {
+        margin-bottom: 40px;
+    }
+
+    /* footer section end */
+
+    /* Base section start */
+    .base-section p {
+        margin-bottom: 10px;
+    }
+
+    .base-section ul {
+        gap: 0;
+    }
+
+    .base-section .social-icons img {
+        float: left;
+    }
+
+    /* Base section end */
+
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    body {
+        background-color: rgb(26, 3, 69) !important;
+    }
+    
+    .footer-content .footer-top img{
+        width: auto;
+      }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .menu-bar{
+        display: none;
+    }
+    .slicknav_nav .slicknav_row {
+        padding: 0;
+        margin: 0;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        background: #043150;
+        color: #fff;
+    }
+    .slicknav_nav a:hover{
+        background-color: transparent;
+        color: inherit;
+    }
+}

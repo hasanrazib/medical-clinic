@@ -1,0 +1,142 @@
+/* Top section start  */
+.top-section{
+    padding:15px 0;
+    color: #99a9b5;
+    position: relative;
+  }
+  .top-section .content{
+    display: flex;
+    justify-content: space-between;
+}
+.top-section {
+  padding: 12px 0 0 0;
+}
+  .top-section .contact p{
+    font-size: 13px;
+    padding-right: 15px;
+    display: inline;
+  }
+  .contact p img{
+    padding-right: 5px;
+  }
+  .top-small-menu ul li {
+    float: left;
+  }
+  .top-small-menu a{
+    color: #99a9b5;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .top-small-menu a img{
+    padding-right: 5px;
+  }
+  .btn-small{
+    display: inline-block;
+  }
+  .btn-small a{
+    text-align: center;
+    font-size: 13px;
+    padding: 10px 15px;
+    font-weight: 700;
+    background-color: #eb5353;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+  /* top section end  */
+
+  /* Nav section start  */
+  .nav-section{
+    position: sticky;
+    top: 0;
+    /* padding: 30px 0; */
+    z-index: 500;
+  }
+  .nav-section .logo{
+    padding: 20px 0;
+  }
+  .mobilemenu{
+    display: none;
+  }
+  .menu-bar-mobil{
+    display: none;
+  }
+  .menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .menu-bar ul{
+    margin-bottom: 0;
+    display: flex;
+  }
+  .menu-bar ul li{
+    padding: 25px 10px;
+    position: relative;
+  }
+
+  .menu-bar ul li a{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #d3d3d3;
+    transition: all 0.3s;
+  }
+  .menu-bar ul li a:hover{
+    outline-offset:3px;
+    outline: 1px solid rgb(255, 255, 255);
+  }
+
+  .fas {
+    color: #d3d3d3;
+    float: right;
+    margin-top: 3px;
+    padding: 0 5px;
+  }
+   /* dropdown menu style */
+   .dropdown-menu-main {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu-main {
+    /* .dropdown-menu-main { */
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #0d4468;
+  }
+  .menu-bar .dropdown-menu-main ul li a:hover{
+    outline: none;
+  }
+  
+.dropdown-menu-main ul {
+    display: block;
+  }
+  
+.dropdown-menu-main ul li {
+    display: block;
+    width: 150px;
+    padding: 10px;
+  }
+  .dropdown-menu-main ul li:hover{
+    background-color: #1a5176;
+  }
+  .dropdown-menu-sub {
+    display: none;
+  }
+  
+  .dropdown-menu-main ul li:hover .dropdown-menu-sub {
+    /* .dropdown-menu-sub { */
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #0d4468;
+
+  }
+
+  .search-area img{ 
+    padding-left: 15px;
+  }
+  /* Nav section end  */
