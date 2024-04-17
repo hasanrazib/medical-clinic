@@ -157,6 +157,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     body {
         background-color: brown !important;
+        font-size: 12px;
     }
     .top-section .content .contact{
         display: none;
@@ -229,7 +230,7 @@
         margin: 0;
     }
     .search{
-        margin-top: 6px;
+        margin-top: 2px;
     }
 
     /* banner section start */
@@ -291,11 +292,20 @@
 
 
     /* our patient say obout us section start */
+    .say-about-us .about-container{
+        height: 390px;
+    }
     .about-container p {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     /* our patient say obout us section end */
+
+    /* blog section start */
+    .blog-section .text-sulg {
+        font-size: 18px;
+    }
+    /* blog section end  */
 
     /* base section start  */
     .base-section .social-icons {
@@ -401,6 +411,8 @@
     /* banner section start */
     .banner-section {
         height: 500px;
+        background-color: #0005; 
+        background-blend-mode: darken;
     }
 
     .banner-text {
@@ -416,6 +428,7 @@
     }
 
     .banner-text h6 {
+        color: #ffffff;
         font-size: 16px;
         line-height: 26px;
         padding: 0;
@@ -438,7 +451,7 @@
     }
 
     .card-content {
-        padding: 30px 20px 30px 20px;
+        padding: 30px 10px 30px 10px;
     }
 
     .card-title {
@@ -480,26 +493,32 @@
 
     /* about section start  */
     .about-section {
+        background-color: #07375769; 
+        background-blend-mode: darken;
         padding: 40px 0;
         /* border: 1px solid rgb(138, 27, 4); */
     }
 
     .about-section .title {
+        color: #ffffff;
         padding: 0;
         /* border: 1px solid rgb(138, 27, 4); */
     }
 
     .about-section .title .title-text {
+        color: #ffffff;
         font-size: 28px;
         line-height: 38px;
     }
 
     .about-section .slogan-text {
+        color: #ffffff;
         font-size: 14px;
         line-height: 20px;
     }
 
     .about-section .title p {
+        color: #ffffff;
         font-size: 12px;
     }
 
@@ -772,6 +791,9 @@
         background-color: #e9edf0;
         height: 90%;
     }
+    .our-experienced-doctors .card-lg{
+        padding: 30px 20px;
+    }
 
     /* our-experienced-doctors section end */
 
@@ -805,8 +827,11 @@
     /* blog-section end  */
 
     /* footer section start */
+    .footer-content {
+        padding: 80px 0 0 0;
+    }
     .footer-content .footer-top img{
-        width: 100%;
+        width: 250px;
       }
     .footer-content .footer-top {
         padding: 0 0 40px 0;
@@ -814,7 +839,7 @@
 
     .footer-content .footer-top p {
         text-align: center;
-        font-size: 18px;
+        font-size: 12px;
         padding: 0 7%;
     }
 
@@ -823,11 +848,14 @@
     }
 
     .footer-section .footer-help-area .title-text {
-        font-size: 38px;
+        font-size: 32px;
     }
 
     .footer-section .footer-form-area {
         margin-bottom: 40px;
+    }
+    .location p{
+        font-size: 12px;
     }
 
     /* footer section end */

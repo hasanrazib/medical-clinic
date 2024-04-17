@@ -601,16 +601,18 @@ select:has(option:disabled:checked[hidden]) {
   font-weight: 300;
   margin-bottom: 0;
 }
-.price-card .price-card-content p:nth-child(odd){
+.price-card .price-card-content li:nth-child(odd){
   color: #ffffff;
-  padding: 10px 0;
+  padding: 20px 0;
+  /* margin: 10px 0; */
   text-align: center;
   margin-bottom: 0;
 }
-.price-card .price-card-content p:nth-child(even){
+.price-card .price-card-content li:nth-child(even){
   background-color: #03263e;
   color: #ffffff;
-  padding: 10px 0;
+  padding: 20px 0;
+  /* margin: 10px 0; */
   text-align: center;
   margin-bottom: 0;
 }
