@@ -322,7 +322,6 @@
 
     /* nav section start  */
     .nav-section {
-        /* display: none; */
         padding: 5px 0;
     }
 
@@ -348,7 +347,10 @@
     .slicknav_menu .slicknav_icon {
         position: absolute;
         right: 10px;
-        top: 15px;
+        /* top: 15px; */
+    }
+    .fa-search{
+        margin-top: 15px;
     }
 
     .slicknav_menu {
@@ -403,21 +405,21 @@
 
     .banner-text {
         padding: 55px 0 25px 0;
-        /* border: 1px solid red; */
+        text-align: center;
     }
 
     .banner-text .learge-title {
         font-size: 30px;
         line-height: 40px;
-        padding: 10px 20PX 10px 0;
-        margin-bottom: 20px;
+        padding:0 5px;
+        margin-bottom: 10px;
     }
 
     .banner-text h6 {
         font-size: 16px;
         line-height: 26px;
-        padding: 0 20% 0 0;
-        margin-bottom: 15px;
+        padding: 0;
+        margin-bottom: 10px;
     }
 
     .banner-text h4 {
@@ -428,7 +430,7 @@
 
     /* Apoinment and hour section start */
     .apoinment-hour-section {
-        margin-top: -100px;
+        margin-top: -140px;
     }
 
     .card-lg {
@@ -452,6 +454,24 @@
     .card-blue {
         margin-top: 60px;
     }
+    .card-blue .card-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .card-blue .card-title p{
+        float: left;
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .card-blue .card-title h1{
+        padding-left: 10px;
+        float: left;
+        margin-bottom: 0;
+
+    }
+
 
     /* Apoinment and hour section end */
     /* banner section end  */
@@ -765,11 +785,11 @@
     }
 
     .blog-section .title h4 {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     .blog-section .title .text-title {
-        font-size: 24px;
+        font-size: 32px;
         margin-bottom: 26px;
     }
 
@@ -815,10 +835,6 @@
     /* Base section start */
     .base-section p {
         margin-bottom: 10px;
-    }
-
-    .base-section ul {
-        gap: 0;
     }
 
     .base-section .social-icons img {

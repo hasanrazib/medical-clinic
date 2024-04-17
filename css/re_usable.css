@@ -46,6 +46,10 @@ input:focus {
     line-height: 20px;
     background-color: #f55060;
     color: #fff;
+    transition: all 0.4s;
+}
+.large-btn a:hover{
+    background-color: #df273a;
 }
 
 /* button section end  */
