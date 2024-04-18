@@ -54,3 +54,13 @@
 .timetable ul li:nth-child(even){
     background-color: #f7f8f9;
 }
+
+.footer-section .title{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    padding: 0 0 50px;
+}
+.footer-section .title .title-text-mid{
+    color: #000;
+}
