@@ -340,6 +340,9 @@
         height: 100%;
         padding: 5px 0;
     }
+    .nav-section .logo span{
+        display: none;
+    }
 
     .menu-bar {
         display: none;

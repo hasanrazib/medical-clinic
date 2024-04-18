@@ -60,6 +60,24 @@
   .nav-section .logo{
     padding: 15px 0;
   }
+  .nav-section .logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-section .logo img{
+    padding-right: 4px;
+  }
+  .nav-section .logo span{
+    text-transform: uppercase;
+    font-size: 27px;
+    line-height: 36px;
+    font-weight: 400;
+    color:#fff;
+  }
+  .nav-section .logo span:nth-child(3){
+    font-weight: 700;
+  }
   .mobilemenu{
     display: none;
   }
@@ -76,7 +94,7 @@
     display: flex;
   }
   .menu-bar ul li{
-    padding: 25px 20px;
+    padding: 25px 10px;
     position: relative;
   }
 

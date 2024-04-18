@@ -9,6 +9,8 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #edf2f5;
+    font-size: 16px;
+    color: #5f727f;
 }
 
 a {
@@ -17,6 +19,9 @@ a {
 
 ul li {
     list-style: none;
+}
+ol, ul {
+    padding-left: 0;
 }
 
 textarea:focus,
@@ -30,6 +35,24 @@ input:focus {
     line-height: 60px;
     text-transform: uppercase;
 }
+.title-text-mid{
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.title-text-mini{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+}
+.title-text-sm{
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 
 
 /* button section start */
@@ -116,6 +139,131 @@ input:focus {
     z-index: 4;
 }
 /* Time line css style end */
+
+/* footer section  */
+.footer-section{
+    padding:  0 0 50px 0;
+    /* height: 1400px; */
+  }
+  .footer-content{
+    padding: 150px 0 0 0;
+    text-align: center;
+  }
+  .footer-content .footer-top{
+    padding: 0 0 90px 0;
+  }
+  .footer-content .footer-top img{
+    margin-bottom: 20px;
+  }
+  .footer-content .footer-top p{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 25%;
+    margin-bottom: 0;
+  }
+  
+  .footer-section .footer-help-area{
+    padding: 0 0 90px 0;
+    text-transform: uppercase;
+    color: #1585ca;
+  }
+  .footer-section .footer-help-area p{
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .footer-section .footer-form-area{
+    margin-bottom: 100px;
+  }
+  .footer-section .footer-form-area input{
+    width: 100%;
+    padding: 10px 20px;
+    padding-right: 40px;
+    border: 1px solid #26526f;
+    border-radius: 0;
+    background-color: #032a45;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .footer-section .footer-form-area textarea{
+    background-color: #032a45;
+    color: #ffffff;
+    border: 1px solid #26526f;
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 15px 5px 15px 15px;
+    font-weight: 500;
+  }
+  .input-area{
+    position: relative;
+  }
+  .input-area img{
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    max-width: 20px;
+    max-height: 16px;
+  }
+  .input-area input::placeholder{
+    color: #ddd;
+  }
+  .Message-area textarea::placeholder{
+    color: #ddd;
+  }
+  .footer-form-area .large-btn a{
+    display: inline-block;
+  }
+  .footer-section .location{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .footer-section .location img{
+    margin-bottom: 40px;
+  }
+  .footer-section .location p{
+    margin-bottom: 10px;
+  }
+  .footer-section .location span{
+    color: #40b7ff;
+  }
+  
+  
+  /* map section 
+   */
+  
+   .map-section{
+    height: 340px;
+   }
+  
+   /* Base section start */
+  
+   .base-section{
+    background-color: #00243d;
+    color: #8fa0ad;
+    padding: 30px 0  0;
+    font-size: 13px;
+   }
+  .base-section ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .base-section a{
+    color: #8a98a1;
+  }
+  .base-section .social-icons{
+    background-color: red !important;
+  }
+  .base-section .social-icons img{
+    float: right;
+    margin-bottom: 20px;
+  }
+  
+   /* Base section end */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .timeline-area::after{

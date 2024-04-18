@@ -9,6 +9,7 @@
   width: 100%;
 }
 .banner-text{
+  color: #fff;
   padding: 175px 0 145px 0;
   /* border: 1px solid red; */
 }
@@ -17,24 +18,16 @@
   font-size: 60px;
   line-height: 80px;
   font-weight: 700;
-  color: #fff;
   padding:0 50% 0 0;
   margin-bottom: 20px;
 }
 .banner-text h6{
-  color:#99a9b5;
-  font-size: 20px;
-  line-height: 30px;
-  text-transform: uppercase;
   padding: 0 60% 0 0;
   margin-bottom: 25px;
+  font-weight: 200;
 }
 .banner-text h4{
-  padding: 0 60% 0 0;
-  color:#ffffff;
-  font-size: 36px;
-  line-height: 48px;
-  text-transform: uppercase;
+  padding: 0 55% 0 0;
 }
 /* banner section end  */
 
@@ -53,19 +46,6 @@
 .card-title{
   color: #f55060;
   margin-bottom: 60px;
-}
- .card-title p{
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 0;
-}
-.card-title h1{
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 48px;
 }
 .card-form input,select,textarea{
   background-color: #f5f7f6;
@@ -145,9 +125,7 @@ select:has(option:disabled:checked[hidden]) {
 .about-section .text-title{
   color: #3c3950;
 }
-.about-section .slogan-text{
-  font-size: 24px;
-  line-height: 36px;
+.about-section .title-text-mini{
   text-transform: uppercase;
   font-weight: 300;
   color: #3c3950;
@@ -764,126 +742,3 @@ padding: 0 15%;
   display: inline-block;
 }
 
-/* footer section  */
-.footer-section{
-  padding:  0 0 50px 0;
-  /* height: 1400px; */
-}
-.footer-content{
-  padding: 150px 0 0 0;
-  text-align: center;
-}
-.footer-content .footer-top{
-  padding: 0 0 90px 0;
-}
-.footer-content .footer-top img{
-  margin-bottom: 20px;
-}
-.footer-content .footer-top p{
-  text-transform: uppercase;
-  font-size: 24px;
-  color: #fff;
-  font-weight: 400;
-  padding: 0 25%;
-  margin-bottom: 0;
-}
-
-.footer-section .footer-help-area{
-  padding: 0 0 90px 0;
-  text-transform: uppercase;
-  color: #1585ca;
-}
-.footer-section .footer-help-area p{
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-.footer-section .footer-form-area{
-  margin-bottom: 100px;
-}
-.footer-section .footer-form-area input{
-  width: 100%;
-  padding: 10px 20px;
-  padding-right: 40px;
-  border: 1px solid #26526f;
-  border-radius: 0;
-  background-color: #032a45;
-  color: #ffffff;
-  margin-bottom: 20px;
-  font-size: 16px;
-}
-.footer-section .footer-form-area textarea{
-  background-color: #032a45;
-  color: #ffffff;
-  border: 1px solid #26526f;
-  border-radius: 0;
-  width: 100%;
-  margin-bottom: 50px;
-  font-weight: 500;
-}
-.input-area{
-  position: relative;
-}
-.input-area img{
-  position: absolute;
-  right: 10px;
-  top: 14px;
-  max-width: 20px;
-  max-height: 16px;
-}
-.input-area input::placeholder{
-  color: #ddd;
-}
-.Message-area textarea::placeholder{
-  color: #ddd;
-}
-.footer-form-area .large-btn a{
-  display: inline-block;
-}
-.footer-section .location{
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-.footer-section .location img{
-  margin-bottom: 40px;
-}
-.footer-section .location p{
-  margin-bottom: 10px;
-}
-.footer-section .location span{
-  color: #40b7ff;
-}
-
-
-/* map section 
- */
-
- .map-section{
-  height: 340px;
- }
-
- /* Base section start */
-
- .base-section{
-  background-color: #00243d;
-  color: #8fa0ad;
-  padding: 30px 0  0;
-  font-size: 13px;
- }
-.base-section ul{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-.base-section a{
-  color: #8a98a1;
-}
-.base-section .social-icons{
-  background-color: red !important;
-}
-.base-section .social-icons img{
-  float: right;
-  margin-bottom: 20px;
-}
-
- /* Base section end */

@@ -1,0 +1,56 @@
+.about-banner-section .title{
+    padding: 150px 0;
+    color: #fff;
+}
+.about-banner-section p{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+.about-banner-section  i{
+ padding: 0 10px;
+}
+.about-banner-section p span:nth-last-child(-n + 1){
+    color: #9fcfff;
+    padding: 10px 0;
+    border-bottom: 2px solid #9fcfff;
+}
+
+.address-section{
+    padding: 120px 0;
+}
+.address-section .address-details i{
+    color: #fc7777;
+    padding-right: 7px;
+    float: left;
+    width: 7%;
+    padding: 10px 0;
+}
+.address-section .address-details span{
+    float: left;
+    width: 90%;
+    padding: 8px 0;
+}
+/* .timetable{
+    border: 2px solid red;
+} */
+.timetable ul{
+    margin-bottom: 0;
+}
+
+.timetable ul li{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+.timetable ul li p{
+    margin-bottom: 0;
+    padding: 20px 30px;
+}
+.timetable ul li:nth-child(odd){
+    background-color: #eaf0f5;
+}
+.timetable ul li:nth-child(even){
+    background-color: #f7f8f9;
+}
