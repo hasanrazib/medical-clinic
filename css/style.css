@@ -724,7 +724,7 @@ padding: 0 15%;
   color: red;
 }
 .blog-card .card-text{
-  padding: 0 30px 25px;
+  padding: 0 30px 0px;
 }
 .blog-card .card-text .card-large-text{
   color: #3c3950;
@@ -736,6 +736,23 @@ padding: 0 15%;
 .blog-card .card-text .card-large-text span{
   font-weight: 900;
   letter-spacing: 2px;
+}
+.blog-card .blog-btn{
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.blog-card .blog-btn a{
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: red;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+.blog-card .blog-btn a:hover{
+  background-color: #076bae;
 }
 .card-area .large-btn a{
   margin: 80px 0;

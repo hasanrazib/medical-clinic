@@ -1,24 +1,7 @@
-.about-banner-section .title{
-    padding: 150px 0;
-    color: #fff;
-}
-.about-banner-section p{
-    display: flex;
-    align-items: center;
-    color: #fff;
-    font-weight: 500;
-}
-.about-banner-section  i{
- padding: 0 10px;
-}
-.about-banner-section p span:nth-last-child(-n + 1){
-    color: #9fcfff;
-    padding: 10px 0;
-    border-bottom: 2px solid #9fcfff;
-}
+
 
 .address-section{
-    padding: 120px 0;
+    padding:80px 0 120px 0;
 }
 .address-section .address-details i{
     color: #fc7777;

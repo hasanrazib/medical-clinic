@@ -6,6 +6,7 @@ $('.menu-bar-mobil').slicknav({
 $(document).ready(function(){
 //   $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
   $('.container-fluid .box').matchHeight();
+  $('.container .services-card').matchHeight();
 });
 
 $('#aboutUs').owlCarousel({
