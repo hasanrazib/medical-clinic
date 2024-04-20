@@ -1,0 +1,29 @@
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .card-lg {
+        margin: 6px 2px 0 2px;
+        padding: 15px 15px 0 15px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card-lg {
+        padding: 15px 15px 0 15px;
+    }
+    .doc-info{
+        padding: 10px 0 5px;
+    }
+    .doc-info h4 {
+        font-size: 18px;
+    }
+    .doc-info span {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .doc-info h3 {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+}

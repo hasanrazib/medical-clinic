@@ -311,6 +311,21 @@
     .base-section .social-icons {
         display: none;
     }
+    /* base section end  */
+
+    /* default page style start  */
+    .default-banner-section p{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .default-banner-section .title-text{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .default-banner-section .title{
+        padding: 50px 0 20px 0;
+    }
+    /* default page style end  */
 
 
 
@@ -496,7 +511,7 @@
 
     /* about section start  */
     .about-section {
-        background-color: #07375769; 
+        background-color: #073757a6; 
         background-blend-mode: darken;
         padding: 40px 0;
         /* border: 1px solid rgb(138, 27, 4); */
@@ -514,7 +529,7 @@
         line-height: 38px;
     }
 
-    .about-section .slogan-text {
+    .about-section .title-text-mini {
         color: #ffffff;
         font-size: 14px;
         line-height: 20px;
@@ -873,6 +888,21 @@
     }
 
     /* Base section end */
+
+
+    /* default page style start  */
+    .default-banner-section p{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .default-banner-section .title-text{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .default-banner-section .title{
+        padding: 30px 0 20px 0;
+    }
+    /* default page style end  */
 
 
 }
