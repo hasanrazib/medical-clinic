@@ -44,6 +44,44 @@
     text-align: center;
     padding: 0 0 50px;
 }
-.footer-section .title .title-text-mid{
+.footer-section .title .title-large{
     color: #000;
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media only screen and (max-width: 767px) {
+    p{
+        font-size: 12px;
+    }
+    .address-section {
+        padding: 0 0 30px 0;
+    }
+
+    .address-section .timetable ul{
+        padding: 30px 0 0 0 ;
+    }
+    .address-section .timetable ul li p {
+        padding: 10px 7px;
+    }
+    .footer-section .title {
+        width: 100%;
+        padding: 0 0 10px 0;
+    }
+    .footer-section {
+        padding: 0 0 10px 0;
+    }
+    .title-large {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .footer-section .footer-form-area textarea {
+        margin-bottom: 10px;
+    }
+    
 }

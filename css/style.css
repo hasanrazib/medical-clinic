@@ -3,7 +3,9 @@
   /* border: 1px solid blue; */
 }
 
-/* banner section start  */
+/* ==========================================================================
+   Main Banner section 
+   ========================================================================== */
 .banner-section{
   height:1080px;
   width: 100%;
@@ -125,7 +127,7 @@ select:has(option:disabled:checked[hidden]) {
 .about-section .text-title{
   color: #3c3950;
 }
-.about-section .title-text-mini{
+.about-section .title-medium{
   text-transform: uppercase;
   font-weight: 300;
   color: #3c3950;
@@ -259,7 +261,7 @@ select:has(option:disabled:checked[hidden]) {
 /* .valuable-services .img-res{
   margin-bottom: 50px;
 } */
-.valuable-services .img-res,h3,p{
+.valuable-services .img-res,h3{
   margin-bottom: 30px;
 }
 .valuable-services .img-res{
@@ -312,7 +314,7 @@ select:has(option:disabled:checked[hidden]) {
 .what-we-do-section .title{
   margin-bottom: 100px;
 }
-.what-we-do-section .title-text{
+.what-we-do-section .title-extralarge{
   color: #fff;
 }
 .what-we-do-section .title p{
@@ -401,7 +403,7 @@ select:has(option:disabled:checked[hidden]) {
 .say-about-us{
   padding: 60px 0;
 }
-.say-about-us .title-text{
+.say-about-us .title-extralarge{
   color: #3c3950;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -410,7 +412,7 @@ select:has(option:disabled:checked[hidden]) {
   font-size: 24px;
   font-weight: 200;
 }
-.title-text .title-medium{
+.title-extralarge .title-medium{
   font-size: 36px;
   font-weight: 700;
 }
@@ -517,14 +519,14 @@ select:has(option:disabled:checked[hidden]) {
 .special-offer .text-sulg{
   font-weight: 200;
 }
-.special-offer .title-text{
+.special-offer .title-extralarge{
   color: #ffffff;
   margin-bottom: 150px;
 }
 .special-offer .title-medium{
   margin-bottom: 20px;
 }
-.special-offer .title-text p{
+.special-offer .title-extralarge p{
   margin: 0 auto;
   display: block;
   font-size: 16px;
@@ -574,7 +576,7 @@ select:has(option:disabled:checked[hidden]) {
   font-size: 15px;
   margin-bottom: 0;
 }
-.price-card .price-card-title .title-text{
+.price-card .price-card-title .title-extralarge{
   font-size: 22px;
   font-weight: 300;
   margin-bottom: 0;
