@@ -270,6 +270,9 @@ input:focus {
   text-transform: uppercase;
 }
 
+/* .home-contact-section .logo-text-block{
+  width: 100%;
+} */
 .home-contact-section .text-block {
   text-transform: uppercase;
   color: #ffffff;
