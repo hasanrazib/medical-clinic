@@ -63,7 +63,6 @@
   .nav-section .logo a{
     display: flex;
     align-items: center;
-    justify-content: center;
   }
   .nav-section .logo img{
     padding-right: 4px;

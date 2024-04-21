@@ -11,10 +11,10 @@
         display: none;
       }
       .mobilemenu {
-        display: block;
+        display: none;
     }
     .menu-bar {
-        display: none;
+        display: block;
     }
     .nav-section .logo{
         padding: 0;
@@ -922,7 +922,7 @@
 
 @media only screen and (max-width: 1200px) {
     .menu-bar{
-        display: none;
+        /* display: none; */
     }
     .slicknav_nav .slicknav_row {
         padding: 0;
