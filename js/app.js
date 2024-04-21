@@ -4,9 +4,10 @@ $('.menu-bar-mobil').slicknav({
 });
 // For colorbox 
 $(document).ready(function(){
-//   $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+  $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
   $('.container-fluid .box').matchHeight();
   $('.container .services-card').matchHeight();
+//   $('.gallary-section .galary-img').matchHeight();
 });
 
 $('#aboutUs').owlCarousel({
