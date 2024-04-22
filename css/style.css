@@ -308,6 +308,12 @@ select:has(option:disabled:checked[hidden]) {
   color: #ffffff;
   font-weight: 200;
 }
+
+
+/* start::facality-skills  */
+.facality-skills{
+  margin-top: -320px;
+}
 .what-we-do-section .card-content .card-title{
   color: #3c3950;
 }
@@ -352,9 +358,7 @@ select:has(option:disabled:checked[hidden]) {
   color: #f4616f;
 }
 
-.facality-skills{
-  margin-top: -320px;
-}
+
 
 /* Accordian styel start  */
 
@@ -597,6 +601,8 @@ select:has(option:disabled:checked[hidden]) {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
+
+/* end::our special offer  */
 
 /* our-experienced-doctors section start */
 
