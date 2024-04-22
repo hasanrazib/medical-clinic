@@ -123,8 +123,8 @@ input:focus {
   color: #fff;
 }
 
-.page-banner-section .banner-content .title-large {
-  padding: 130px 0 100px 0;
+.page-banner-section .banner-content .title-extralarge {
+  padding: 130px 0 85px 0;
 }
 
 .page-banner-section .banner-content ul {
@@ -185,7 +185,6 @@ input:focus {
 
 /* Time line css style start */
 .timeline-area {
-  /* background-color: #a3cbe4; */
   position: relative;
 }
 

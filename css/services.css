@@ -3,7 +3,6 @@
 }
 .services-card{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-    padding: 20px 10px;
     cursor: pointer;
     transition: all 0.5s;
     background-color: #fff;
@@ -14,7 +13,7 @@
 }
 
 .services-card .card-content{
-    padding: 12px 7px;
+    padding: 20px 10px 40px;
     text-align: center;
 }
 .services-card .card-content h1{
@@ -30,7 +29,9 @@
 .card-content .time_and_desiges{
     font-size: 13px;
 }
-
+.card-content .time_and_desiges a{
+    color: #40b7ff;
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

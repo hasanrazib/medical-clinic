@@ -247,9 +247,9 @@ select:has(option:disabled:checked[hidden]) {
   justify-content: center;
   position: relative;
 }
-/* .valuable-services .img-res{
-  margin-bottom: 50px;
-} */
+.valuable-services .img-res{
+  margin-bottom: 30px;
+}
 .valuable-services .img-res{
   width: 42px;
   height: 42px;
@@ -506,21 +506,17 @@ select:has(option:disabled:checked[hidden]) {
 .special-offer {
   padding: 200px 0;
 }
-.special-offer .text-sulg{
-  font-weight: 200;
-}
-.special-offer .title-extralarge{
+.special-offer .title{
   color: #ffffff;
   margin-bottom: 150px;
 }
-.special-offer .title-medium{
+.special-offer .title-extralarge{
   margin-bottom: 20px;
 }
-.special-offer .title-extralarge p{
-  margin: 0 auto;
-  display: block;
-  font-size: 16px;
-  line-height: 26px;
+.special-offer .title-medium{
+  font-weight: 200;
+}
+.special-offer .title p{
   margin-bottom: 0;
   font-weight: 400;
   text-transform: capitalize;
@@ -564,9 +560,9 @@ select:has(option:disabled:checked[hidden]) {
 }
 .price-card .price-card-title .text-sulg{
   font-size: 15px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
-.price-card .price-card-title .title-extralarge{
+.price-card .price-card-title .price-card-title-lg{
   font-size: 22px;
   font-weight: 300;
   margin-bottom: 0;
@@ -611,7 +607,7 @@ select:has(option:disabled:checked[hidden]) {
 }
 .team-person{
   cursor: pointer;
-  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  /* box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset; */
   transition: all 0.7s;
 }
 .team-person:hover{
@@ -620,9 +616,12 @@ select:has(option:disabled:checked[hidden]) {
 /* .our-experienced-doctors .img-res img{
   width: 100%;
 } */
-.our-experienced-doctors .title p{
+.our-experienced-doctors .title .title-small{
+  font-size: 16px;
   color: #3c3950;
   text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 .our-experienced-doctors .text-title{
   font-size: 32px;
@@ -690,11 +689,8 @@ select:has(option:disabled:checked[hidden]) {
   color: #fff;
   padding: 90px 0;
 }
-.blog-section .text-sulg{
-  font-size: 24px;
-}
-.blog-section .title .text-title{
-  margin-bottom: 50px;
+.blog-section .title .title-extralarge{
+  margin-bottom: 20px;
 }
 .blog-section .title p{
 color: #cedee9;
@@ -728,14 +724,11 @@ padding: 0 15%;
 .blog-card .card-text{
   padding: 0 30px 0px;
 }
-.blog-card .card-text .card-large-text{
+.blog-card .card-text .title-medium{
   color: #3c3950;
-  text-transform: uppercase;
-  font-size: 24px;
-  margin-bottom: 25px;
 }
 
-.blog-card .card-text .card-large-text span{
+.blog-card .card-text .title-medium span{
   font-weight: 900;
   letter-spacing: 2px;
 }
@@ -747,7 +740,7 @@ padding: 0 15%;
 .blog-card .blog-btn a{
   display: inline-block;
   padding: 10px 40px;
-  background-color: red;
+  background-color: #fd5364;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -761,6 +754,19 @@ padding: 0 15%;
   display: inline-block;
 }
 
+/* ==========================================================================
+    *******    END :: INDEX PAGE DESIGN      ************
+   ========================================================================== */
+
+
+
+
+
+
+
+/* ==========================================================================
+   *******    START :: DEFAULT PAGEs DESIGN      ************
+   ========================================================================== */
 
 
 /* About page classes  */
@@ -775,9 +781,7 @@ padding: 0 15%;
   height: 100%;
 }
 
-/* ==========================================================================
-   default pages section class
-   ========================================================================== */
+
   /* start::blog page classes */
   .blog-page-section{
   padding: 40px 0 16px;
@@ -850,5 +854,11 @@ padding: 0 15%;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
   }
   /* end::team page classes  */
+
+
+
+  /* ==========================================================================
+   *******    END :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
 
    

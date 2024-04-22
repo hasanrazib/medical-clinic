@@ -6,19 +6,23 @@
         background-color: rgb(3, 78, 13);
         font-size: 14px;
         line-height: 20px;
-    }  
-    .top-section .social-icon{
-        display: none;
-      }
-      .mobilemenu {
+    }
+
+    .top-section .social-icon {
         display: none;
     }
+
+    .mobilemenu {
+        display: none;
+    }
+
     .menu-bar {
         display: block;
     }
-    .nav-section .logo{
+
+    .nav-section .logo {
         padding: 15px 0;
-      }
+    }
 
     /*============================================================
         Start Home screen 
@@ -73,7 +77,7 @@
 
     .card-content {
         background-color: #ffffff;
-        padding: 20px 30px 20px 30px;
+        padding: 30px 30px 20px 30px;
     }
 
     .card-form input,
@@ -116,7 +120,7 @@
 
     /* about section start  */
     .about-section {
-        padding: 10px 0;
+        padding: 30px 0 40px 0;
     }
 
     .about-section .title {
@@ -124,7 +128,7 @@
     }
 
     .about-section .title p {
-        padding: 0 35px 0 0;
+        padding: 0 45px 0 0;
     }
 
     /* about section end  */
@@ -160,16 +164,6 @@
         margin-bottom: 10px;
     }
 
-    .valuable-services {
-        padding: 50px 20px 30px 20px;
-        margin: 0 auto;
-        color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
 
     /* service section end */
     /* what we do section start */
@@ -181,10 +175,40 @@
     .what-we-do-section .title {
         margin-bottom: 70px;
     }
-    
+
 
 
     /* what we do section end */
+
+    /* Special Offers section start */
+    .special-offer {
+        padding: 150px 0 0 0;
+    }
+
+    .special-offer .title {
+        color: #ffffff;
+        margin-bottom: 110px;
+    }
+
+    .special-offer .title p {
+        padding: 0;
+    }
+
+    .price-card .price-card-title {
+        padding: 90px 0 30px 0;
+    }
+
+    .price-card .price-card-content li:nth-child(odd) {
+        padding: 15px 0;
+    }
+
+    .price-card .price-card-content li:nth-child(even) {
+        padding: 15px 0;
+    }
+
+
+
+    /* end::our special offer  */
 
 
     /* our patient say obout us section start */
@@ -205,17 +229,57 @@
         margin-bottom: 25px;
     }
 
-    /* about section start  */
-    .about-section {
-        padding: 30px 0 40px 0;
-        /* border: 1px solid rgb(138, 27, 4); */
+    /* our patient say obout us section end */
+
+    /* blog-section start  */
+    .blog-bg {
+        height: 500px;
     }
 
-    .about-container p {
+    .blog-section .title {
+        padding: 60px 0 0 0;
+    }
+
+    .blog-section .title p {
+        padding: 0;
+    }
+
+    /* card-area  */
+    .card-area {
+        margin-top: -200px;
+    }
+
+    .blog-card .card-top {
+        padding: 15px 15px 5px 15px;
+    }
+
+    .blog-card .card-text {
+        padding: 0 15px 0px;
+    }
+
+    .blog-card .card-text .title-medium {
         font-size: 18px;
     }
 
-    /* our patient say obout us section end */
+    .blog-card .card-text .title-medium span {
+        font-weight: 700;
+    }
+
+    .blog-card .blog-btn a {
+        padding: 10px 80px;
+
+    }
+
+    .blog-card .blog-btn a:hover {
+        background-color: #076bae;
+    }
+
+    .card-area .large-btn a {
+        margin: 0 0 50px 0;
+        display: inline-block;
+    }
+
+    /* blog-section start  */
 
     /* base section start  */
     .base-section {
@@ -225,8 +289,36 @@
 
     /* base section end  */
     /*============================================================
-        Start Home screen 
+        END ::  Home screen Design
     ============================================================ */
+
+
+    /* ==========================================================================
+   *******    START :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
+    /* start::services page  */
+    .page-banner-section .banner-content .title-extralarge {
+        padding: 130px 0 90px 0;
+    }
+
+    .services-card .card-content {
+        padding: 20px 5px 20px;
+    }
+
+    .services-card .card-content h1 {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .card-content .time_and_desiges {
+        font-size: 10px;
+    }
+
+    /* end::services page  */
+
+    /* ==========================================================================
+   *******    END :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
 }
 
 
@@ -236,10 +328,13 @@
     body {
         background-color: brown !important;
         font-size: 12px;
+        line-height: 22px;
     }
-    .top-section .content .contact{
+
+    .top-section .content .contact {
         display: none;
     }
+
     .nav-section {
         padding: 15px 0;
     }
@@ -251,9 +346,10 @@
     .menu-bar {
         display: none;
     }
-    .nav-section .logo{
+
+    .nav-section .logo {
         padding: 0;
-      }
+    }
 
     .slicknav_menu .slicknav_menutxt {
         display: none;
@@ -307,37 +403,144 @@
         padding: 2px 0;
         margin: 0;
     }
-    .search{
+
+    .search {
         margin-top: 2px;
     }
 
+    /*============================================================
+        Start ::  Home screen 
+    ============================================================ */
+
     /* banner section start */
     .banner-section {
-        height: 800px;
+        height: 600px;
+        background-color: #0005;
+        background-blend-mode: darken;
     }
 
     .banner-text {
-        padding: 95px 0 45px 0;
+        padding: 35px 0 45px 0;
         /* border: 1px solid red; */
     }
 
-    .banner-text .learge-title {
-        font-size: 50px;
-        line-height: 60px;
-        padding: 0 40% 0 0;
+    .banner-text .title-extralarge {
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .banner-text h6 {
-        padding: 0 35% 0 0;
+        font-size: 16px;
+        padding: 0 45% 0 0;
     }
 
     .banner-text h4 {
         padding: 0 35% 0 0;
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 22px;
+        line-height: 32px;
     }
 
     /* banner section end  */
+
+    /* Apoinment and hour section start */
+    .apoinment-hour-section {
+        margin-top: -310px;
+    }
+
+    .card-lg {
+        height: 100%;
+        margin: 0;
+        padding: 30px 25px 0 25px;
+        margin-bottom: 20px;
+    }
+
+
+    .card-lg .title-small {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .card-lg .title-large {
+        font-size: 26px;
+        margin-bottom: 15px;
+        line-height: 36px;
+    }
+
+    .card-content {
+        background-color: #ffffff;
+        padding: 20px 20px 15px 20px;
+    }
+
+    .card-form input,
+    select,
+    textarea {
+        background-color: #f6fbff;
+        padding: 8px 10px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .card-form textarea {
+        height: 80px;
+    }
+
+    .card-form .large-btn {
+        margin-top: 0;
+    }
+
+    /* blue card  */
+
+    .card-blue .card-content {
+        padding-top: 20px;
+    }
+
+    .card-blue .list-data ul {
+        margin-bottom: 20px;
+    }
+
+    .date-time p {
+        margin-bottom: 4px;
+    }
+
+    .b-line {
+        border-bottom: 1px solid #d5dade;
+        margin-bottom: 10px;
+    }
+
+    .large-btn a {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+
+    /* Apoinment and hour section end */
+
+    /* about section start  */
+    .about-section {
+        background-color: #073757a6;
+        background-blend-mode: darken;
+        padding: 30px 0 40px 0;
+    }
+
+    .about-section .title {
+        padding: 0px;
+    }
+
+    .about-section .title h1,
+    .about-section .title h3,
+    .about-section .title p {
+        color: #fff;
+    }
+
+
+    .about-section .title p {
+        text-align: justify;
+        padding: 0 65px 0 0;
+    }
+
+    /* about section end  */
 
     /* our patient say obout us start */
     .about-section {
@@ -349,11 +552,6 @@
         margin-top: -240px;
     }
 
-    .card-lg {
-        margin: 50px 95px 0 95px;
-        padding: 50px 35px 0 35px;
-        margin-bottom: 0px;
-    }
 
     .our-experienced-doctors .card-lg {
         margin: 0;
@@ -361,49 +559,359 @@
 
     /* Apoinment and hour section end */
 
-    /* service section start */
-    .box .box-content {
-        padding: 90px 20px 70px 30px;
+/* service section start */
+.service-section {
+    margin-bottom: 0;
+}
+
+/* box for tritment  */
+.box .box-content {
+    padding: 20px 10px 30px 30px;
+}
+
+.box-title {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.box .box-content .large-btn {
+    margin-top: 30px;
+}
+
+/* box for success count  */
+.box .count .calender {
+    margin-bottom: 10px;
+}
+
+.count .medium-number {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.valuable-services {
+    padding: 50px 20px 30px 20px;
+    margin: 0 auto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.valuable-services {
+    padding:20px 12px;
+}
+.valuable-services .img-res{
+width: 22px;
+height: 22px;
+}
+.valuable-services .img-res img{
+    width: 100%;
+}
+
+.valuable-services .title-small{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .valuable-services p{
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+/* service section end */
+
+    /*start ::  what we do best section  */
+    .timeline-section {
+        height: 1000px;
+        padding: 50px 0 15px 0;
     }
 
-    /* service section end */
+    /* start::facality-skills  */
+    .facality-skills {
+        margin-top: -120px;
+    }
+
+    /* Accordian styel start  */
+    .accordion-button {
+        padding: 10px 0;
+        border-radius: 0;
+        font-size: 14px;
+    }
+
+    .accordion-body {
+        color: #5f727f;
+        padding: 0;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #f4616f;
+        background-color: #fff;
+        border-radius: 0;
+    }
+
+    /*end ::  what we do best section  */
 
 
     /* our patient say obout us section start */
-    .say-about-us .about-container{
-        height: 390px;
+    .say-about-us {
+        padding: 30px 0;
     }
+
+    .say-about-us .title-extralarge {
+        margin-bottom: 20px;
+    }
+
+    .say-about-us .about-container {
+        height: 320px;
+    }
+
     .about-container p {
-        font-size: 22px;
+        font-size: 14px;
     }
 
     /* our patient say obout us section end */
 
-    /* blog section start */
-    .blog-section .text-sulg {
+    /* Special Offers section start */
+    .special-offer {
+        padding: 100px 0 0;
+    }
+
+    .special-offer .title {
+        margin-bottom: 110px;
+    }
+
+    .special-offer .title-extralarge {
+        margin-bottom: 20px;
+    }
+
+    .special-offer .title p {
+        padding: 0;
+    }
+
+    .price-card .price {
+        width: 110px;
+        height: 110px;
+    }
+
+    .price-card .price span {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .price-card .price-card-title {
+        padding: 80px 0 20px 0;
+    }
+
+    .price-card .price-card-title .text-sulg {
+        font-size: 13px;
+    }
+
+    .price-card .price-card-title .price-card-title-lg {
         font-size: 18px;
     }
-    /* blog section end  */
 
-    /* base section start  */
+    .price-card .price-card-content li:nth-child(odd) {
+        padding: 10px 0;
+    }
+
+    .price-card .price-card-content li:nth-child(even) {
+        padding: 12px 0;
+    }
+
+    .price-card .price-card-btn {
+        padding: 20px 0;
+    }
+
+    /* end::our special offer  */
+
+    /* our-experienced-doctors section start */
+
+    .our-experienced-doctors {
+        padding: 35px 0;
+    }
+
+    .our-experienced-doctors .text-title {
+        font-size: 28px;
+    }
+
+    .our-experienced-doctors .title .title-small {
+        font-size: 14px;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+
+    .our-experienced-doctors .team-person .card-lg {
+        margin: 0 60px;
+        padding: 20px 20px;
+    }
+
+    .our-experienced-doctors p {
+        margin-bottom: 35px;
+    }
+
+    .doc-info {
+        padding: 10px 0 0;
+        text-align: center;
+    }
+
+    .doc-info h4 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+
+    .doc-info span {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .doc-info h3 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 0;
+    }
+
+    /* our-experienced-doctors section end */
+
+    /* blog-section start  */
+    .blog-bg {
+        height: 500px;
+    }
+
+    .blog-section .title {
+        padding: 40px 0 0 0;
+    }
+
+    .blog-section .title p {
+        padding: 0;
+    }
+
+    .blog-section .title .title-medium {
+        font-size: 18px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+
+    .blog-section .title .title-extralarge {
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 10px;
+    }
+
+    /* card-area  */
+    .card-area {
+        margin-top: -225px;
+    }
+
+    .blog-card .card-top {
+        padding: 25px 25px 0;
+    }
+
+    .blog-card .card-text {
+        padding: 0 25px 0px;
+    }
+
+    .blog-card .card-text .title-medium {
+        font-size: 18px;
+    }
+
+    .blog-card .card-text .title-medium span {
+        font-weight: 700;
+    }
+
+    .blog-card .blog-btn a {
+        padding: 10px 80px;
+
+    }
+
+    .blog-card .blog-btn a:hover {
+        background-color: #076bae;
+    }
+
+    .card-area .large-btn a {
+        margin: 0 0 50px 0;
+        display: inline-block;
+    }
+
+    /* blog-section start  */
+
+    /* start:: home-contact-section  */
+    .home-contact-section {
+        padding: 110px 0 30px 0;
+        text-align: center;
+    }
+
+    .home-contact-section .logo-text-block img {
+        width: 250px;
+    }
+
+    .home-contact-section .logo-text-block p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .home-contact-section .text-block {
+        margin-bottom: 10px;
+    }
+
+    .home-contact-section .title-extralarge{
+        font-size: 36px;
+    }
+
+    .contact-default {
+        padding: 20px 0 30px;
+    }
+
+
+    /* end:: home-contact-section  */
+    /* start::map section  */
+    .map-section {
+        height: 200px;
+      }
+    /* end::map section  */
+
+    /* footer section start  */
     .base-section .social-icons {
         display: none;
     }
-    /* base section end  */
 
-    /* default page style start  */
-    .default-banner-section p{
-        font-size: 12px;
-        margin-bottom: 5px;
+    /* footer section end  */
+
+    /* ==========================================================================
+   *******    START :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
+    /* start::services page  */
+    .page-banner-section{
+        height: 200px;
     }
-    .default-banner-section .title-extralarge{
-        font-size: 30px;
-        line-height: 40px;
+    .page-banner-section .banner-content .title-extralarge {
+        font-size: 36px;
+        line-height: 36px;
+        padding: 80px 0 40px 0;
     }
-    .default-banner-section .title{
-        padding: 50px 0 20px 0;
+
+    .services-card .card-content {
+        padding: 20px 5px 20px;
     }
-    /* default page style end  */
+
+    .services-card .card-content h1 {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .card-content .time_and_desiges {
+        font-size: 10px;
+    }
+
+    /* end::services page  */
+
+    /* ==========================================================================
+   *******    END :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
 
 
 
@@ -418,7 +926,37 @@
 
     /* Top section start  */
     .top-section {
+        display: block;
+    }
+    .top-section .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-section .content .contact{
         display: none;
+    }
+    .top-section .content .top-small-menu{
+        text-align: center;
+        width: 100%;
+    }
+    .top-small-menu a {
+        color: #99a9b5;
+        margin-left: 0;
+        font-size: 8px;
+    }
+    .top-small-menu ul li {
+        margin-right: 5px;
+    }
+    .top-small-menu ol,
+    .top-small-menu ul {
+        padding-left: 30px;
+    }
+    .btn-small a {
+        color: #fff;
+        padding: 3px 8px;
+        border-radius: 2px;
     }
 
     /* top section end  */
@@ -433,7 +971,8 @@
         height: 100%;
         padding: 5px 0;
     }
-    .nav-section .logo span{
+
+    .nav-section .logo span {
         display: none;
     }
 
@@ -444,7 +983,7 @@
     .mobilemenu {
         display: block;
     }
-    
+
 
     .slicknav_menu .slicknav_menutxt {
         display: none;
@@ -455,7 +994,8 @@
         right: 10px;
         /* top: 15px; */
     }
-    .fa-search{
+
+    .fa-search {
         margin-top: 15px;
     }
 
@@ -507,7 +1047,7 @@
     /* banner section start */
     .banner-section {
         height: 500px;
-        background-color: #0005; 
+        background-color: #0005;
         background-blend-mode: darken;
     }
 
@@ -519,7 +1059,7 @@
     .banner-text .learge-title {
         font-size: 30px;
         line-height: 40px;
-        padding:0 5px;
+        padding: 0 5px;
         margin-bottom: 10px;
     }
 
@@ -563,18 +1103,21 @@
     .card-blue {
         margin-top: 60px;
     }
-    .card-blue .card-title{
+
+    .card-blue .card-title {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 25px;
     }
-    .card-blue .card-title p{
+
+    .card-blue .card-title p {
         float: left;
         font-size: 26px;
         line-height: 36px;
     }
-    .card-blue .card-title h1{
+
+    .card-blue .card-title h1 {
         padding-left: 10px;
         float: left;
         margin-bottom: 0;
@@ -589,7 +1132,7 @@
 
     /* about section start  */
     .about-section {
-        background-color: #073757a6; 
+        background-color: #073757a6;
         background-blend-mode: darken;
         padding: 40px 0;
         /* border: 1px solid rgb(138, 27, 4); */
@@ -887,7 +1430,8 @@
         background-color: #e9edf0;
         height: 90%;
     }
-    .our-experienced-doctors .card-lg{
+
+    .our-experienced-doctors .card-lg {
         padding: 30px 20px;
     }
 
@@ -926,9 +1470,11 @@
     .footer-content {
         padding: 80px 0 0 0;
     }
-    .footer-content .footer-top img{
+
+    .footer-content .footer-top img {
         width: 250px;
-      }
+    }
+
     .footer-content .footer-top {
         padding: 0 0 40px 0;
     }
@@ -950,11 +1496,17 @@
     .footer-section .footer-form-area {
         margin-bottom: 40px;
     }
-    .location p{
+
+    .location p {
         font-size: 12px;
     }
 
     /* footer section end */
+    /* start::map section  */
+    .map-section {
+        height: 200px;
+        }
+    /* end::map section  */
 
     /* Base section start */
     .base-section p {
@@ -969,18 +1521,59 @@
 
 
     /* default page style start  */
-    .default-banner-section p{
+    .default-banner-section p {
         font-size: 12px;
         margin-bottom: 5px;
     }
-    .default-banner-section .title-extralarge{
+
+    .default-banner-section .title-extralarge {
         font-size: 30px;
         line-height: 40px;
     }
-    .default-banner-section .title{
+
+    .default-banner-section .title {
         padding: 30px 0 20px 0;
     }
+
     /* default page style end  */
+
+    /* ==========================================================================
+   *******    START :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
+    /* start::services page  */
+    .page-banner-section{
+        height: 130px;
+    }
+    
+    .page-banner-section .banner-content .title-extralarge {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 40px 0 25px 0;
+    }
+    .banner-content .active {
+        border-bottom: 2px solid #9fcfff;
+        padding-bottom: 2px;
+    }
+
+    .services-card .card-content {
+        padding: 20px 5px 20px;
+    }
+
+    .services-card .card-content h1 {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .card-content .time_and_desiges {
+        font-size: 10px;
+    }
+
+    /* end::services page  */
+
+    /* ==========================================================================
+   *******    END :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
+
 
 
 }
@@ -993,22 +1586,20 @@
     body {
         background-color: rgb(26, 3, 69) !important;
     }
-    
-    .footer-content .footer-top img{
+
+    .footer-content .footer-top img {
         width: auto;
-      }
+    }
 
 
 }
 
 @media only screen and (max-width: 1200px) {
-    .menu-bar{
-        /* display: none; */
-    }
     .slicknav_nav .slicknav_row {
         padding: 0;
         margin: 0;
     }
+
     .slicknav_nav .slicknav_row:hover {
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
@@ -1016,7 +1607,8 @@
         background: #043150;
         color: #fff;
     }
-    .slicknav_nav a:hover{
+
+    .slicknav_nav a:hover {
         background-color: transparent;
         color: inherit;
     }
