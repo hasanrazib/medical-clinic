@@ -38,11 +38,12 @@ input:focus {
   font-weight: 700;
   line-height: 60px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .title-large {
   font-size: 36px;
-  /* color: #3c3950; */
+  margin-bottom: 10px;
   line-height: 46px;
   font-weight: 700;
   text-transform: uppercase;

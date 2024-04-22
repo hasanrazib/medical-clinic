@@ -3,6 +3,7 @@
 
     body {
         background-color: rgb(3, 78, 13);
+        font-size: 14px;
     }  
     .top-section .social-icon{
         display: none;
@@ -19,18 +20,23 @@
 
     /* banner section start */
     .banner-section {
-        height: 750px;
+        height: 730px;
     }
 
     .banner-text {
-        padding: 55px 0 35px 0;
+        padding: 55px 0 25px 0;
         /* border: 1px solid red; */
     }
 
-    .banner-text .learge-title {
-        font-size: 50px;
+    .banner-text .title-extralarge{
         line-height: 60px;
-    }
+        word-spacing: 3%;
+        padding:0 50% 0 0;
+        margin-bottom: 10px;
+      }
+      .banner-text h6{
+        margin-bottom: 15px;
+      }
 
     .banner-text h4 {
         font-size: 26px;
@@ -40,18 +46,85 @@
     /* banner section end  */
     /* Apoinment and hour section start */
     .apoinment-hour-section {
-        margin-top: -320px;
+        margin-top: -310px;
     }
 
     .card-lg {
         padding: 30px 35px 0 35px;
     }
+    .card-lg .title-small {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .card-lg .title-large {
+        font-size: 26px;
+        margin-bottom: 15px;
+        line-height: 36px;
+      }
     .card-content{
         background-color: #ffffff;
-        padding: 70px 30px 60px 30px;
+        padding: 20px 30px 20px 30px;
+    }
+    .card-form input,select,textarea{
+        background-color: #f6fbff;
+        padding: 10px 15px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      .card-form textarea{
+        height: 80px;
+      }
+      .card-form .large-btn{
+        margin-top: 0;
+      }
+      /* blue card  */
+      .card-blue .card-content{
+        padding-top: 20px;
+      }
+      .card-blue .list-data ul{
+        margin-bottom: 20px;
+    }
+    .date-time p{
+        margin-bottom: 4px;
+      }
+      .b-line{
+        border-bottom: 1px solid #d5dade;
+        margin-bottom: 10px;
       }
 
     /* Apoinment and hour section end */
+
+    /* about section start  */
+    .about-section{
+    padding:10px 0;
+    border: 1px solid rgb(138, 27, 4);
+    }
+  .about-section .title{
+    padding: 0px;
+    /* border: 1px solid rgb(138, 27, 4); */
+  }
+  .about-section .title p{
+    padding: 0 35px 0 0;
+  }
+  .btn-medium{
+    display: inline-block;
+    text-align: center;
+  }
+  .btn-medium a{
+    display: inline-block;
+    padding: 8px 10px;
+    background-color:#1a81c3;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+  .btn-medium a:hover{
+    background-color:#0c5c8d;
+  }
+  /* about section end  */
 
     /* service section start */
     .box .box-content {
