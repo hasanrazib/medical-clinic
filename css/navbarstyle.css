@@ -60,10 +60,10 @@
   .nav-section .logo{
     padding: 15px 0;
   }
-  .nav-section .logo a{
+  /* .nav-section .logo a{
     display: flex;
     align-items: center;
-  }
+  } */
   .nav-section .logo img{
     padding-right: 4px;
   }

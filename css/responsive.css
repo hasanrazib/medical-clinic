@@ -4,9 +4,6 @@
     body {
         background-color: rgb(3, 78, 13);
     }  
-    .nav-section {
-        padding: 20px 0;
-    }
     .top-section .social-icon{
         display: none;
       }
@@ -17,62 +14,12 @@
         display: block;
     }
     .nav-section .logo{
-        padding: 0;
+        padding: 15px 0;
       }
-    /* .menu-item{
-        padding: 20px 0;
-    } */
-
-    .slicknav_menu .slicknav_menutxt {
-        display: none;
-    }
-
-    .slicknav_menu .slicknav_icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .slicknav_menu {
-        background: none;
-        padding: 2px 3px;
-    }
-
-    .slicknav_btn {
-        position: relative;
-        background-color: transparent;
-    }
-
-    .slicknav_nav {
-        background-color: #03263e;
-        position: absolute;
-        right: 100px;
-        top: 100%;
-        width: 40%;
-    }
-    .slicknav_nav ul {
-        list-style: none;
-        /* overflow: hidden; */
-        margin: 0 2px 0 2px;
-    }
-    .slicknav_nav a:hover {
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        border-radius: 0px;
-        background: #131138;
-        color: #fff;
-    }
-    .slicknav_nav .slicknav_item a {
-        padding: 0 10px;
-        margin: 0 4px;
-    }
-    .search{
-        margin-top: 6px;
-    }
 
     /* banner section start */
     .banner-section {
-        height: 800px;
+        height: 750px;
     }
 
     .banner-text {
@@ -83,7 +30,6 @@
     .banner-text .learge-title {
         font-size: 50px;
         line-height: 60px;
-        padding: 0 40% 0 0;
     }
 
     .banner-text h4 {

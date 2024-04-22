@@ -347,7 +347,7 @@ input:focus {
 .base-section {
   background-color: #00243d;
   color: #8fa0ad;
-  padding: 30px 0 0;
+  padding: 30px 0 10px;
   font-size: 13px;
 }
 
