@@ -113,13 +113,16 @@
                   </ul>
                 </div>
 
-                <div class="search">
+                <!-- <div class="search">
                   <div class="search-area">
                     <div class="search-box">
                       <button class="btn-search"><i class="fas fa-search"></i></button>
                       <input type="text" class="input-search" placeholder="Type to Search...">
                     </div>
                   </div>
+                </div> -->
+                <div class="search">
+                  <button class="openBtn" onclick="openSearch()"><i class="fas fa-search"></i></button>
                 </div>
               </div>
             </div>
@@ -127,6 +130,18 @@
         </div>
       </section>
       <!-- Nav section end   -->
+
+      <!-- search area  -->
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      <!-- search area  -->
     
       <!-- start::banner section  -->
       <section class="page-banner-section"

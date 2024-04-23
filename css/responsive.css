@@ -407,7 +407,12 @@
     .search {
         margin-top: 2px;
     }
-
+    .fa-search{
+        margin-top: 10px;
+    }
+    .overlay button {
+        padding: 11.6px;
+    }
     /*============================================================
         Start ::  Home screen 
     ============================================================ */
@@ -922,6 +927,8 @@ height: 22px;
 @media only screen and (max-width: 767px) {
     body {
         background-color: rgb(41, 214, 177) !important;
+        font-size: 10px;
+        line-height: 20px;
     }
 
     /* Top section start  */
@@ -984,6 +991,19 @@ height: 22px;
         display: block;
     }
 
+    /* search area  */    
+    .openBtn{
+        margin-top: 6px;
+    }
+    .overlay button {
+        padding: 11.6px;
+        font-size: 15px;
+    }
+    .fa-search {
+        margin-top: 10px;
+    }
+    /* search area  */
+
 
     .slicknav_menu .slicknav_menutxt {
         display: none;
@@ -992,11 +1012,7 @@ height: 22px;
     .slicknav_menu .slicknav_icon {
         position: absolute;
         right: 10px;
-        /* top: 15px; */
-    }
-
-    .fa-search {
-        margin-top: 15px;
+        top: 2px;
     }
 
     .slicknav_menu {
@@ -1052,11 +1068,11 @@ height: 22px;
     }
 
     .banner-text {
-        padding: 55px 0 25px 0;
+        padding: 40px 0 25px 0;
         text-align: center;
     }
 
-    .banner-text .learge-title {
+    .banner-text .title-extralarge {
         font-size: 30px;
         line-height: 40px;
         padding: 0 5px;
@@ -1065,39 +1081,59 @@ height: 22px;
 
     .banner-text h6 {
         color: #ffffff;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 14px;
+        line-height: 24px;
         padding: 0;
         margin-bottom: 10px;
     }
 
     .banner-text h4 {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 18px;
+        line-height: 28px;
         padding: 0;
     }
 
     /* Apoinment and hour section start */
     .apoinment-hour-section {
-        margin-top: -140px;
+        margin-top: -180px;
+    }
+    .apoinment-hour-section .card-lg{
+        background-size: 100% 240px;
     }
 
     .card-lg {
-        padding: 0;
+        margin: 0;
+        padding: 30px 20px;
     }
 
     .card-content {
-        padding: 30px 10px 30px 10px;
+        padding: 30px 15px 30px 15px;
+    }
+    .card-form input, select, textarea {
+        padding: 8px 5px 8px 10px;
+        border: 1px solid #dff3fd;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+    .card-form textarea {
+        height: 80px;
+        margin-bottom: 0;
     }
 
     .card-title {
         text-align: center;
         margin-bottom: 20px;
     }
+    .title-small {
+        font-size: 15px;
+        line-height: 20px;
+    }
 
     .card-lg h1 {
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 22px;
+        line-height: 32px;
     }
 
     .card-blue {
@@ -1122,6 +1158,24 @@ height: 22px;
         float: left;
         margin-bottom: 0;
 
+    }
+    .card-form .large-btn {
+        margin-top: 10px;
+    }
+    .card-form .large-btn a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .date-time p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    .card-blue .list-data ul {
+        margin-bottom: 15px;
+    }
+    .card-blue {
+        margin-top: 0;
     }
 
 
@@ -1158,7 +1212,6 @@ height: 22px;
 
     .about-section .title p {
         color: #ffffff;
-        font-size: 12px;
     }
 
     .btn-medium a {
