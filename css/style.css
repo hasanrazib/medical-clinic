@@ -854,6 +854,22 @@ padding: 0 15%;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
   }
   /* end::team page classes  */
+  /* start::contact us classes  */
+  .address-section ul{
+    
+  }
+  .address-section ul li{
+    padding: 0  0 20px 0;
+    font-size: 16px;
+  }
+  .address-section ul li i{
+    color: #eb5353;
+  }
+  .address-section ul li span{
+    margin-left: 10px;
+  }
+
+  /* end::contact classes  */
 
 
 

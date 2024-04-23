@@ -931,6 +931,7 @@ height: 22px;
         line-height: 20px;
     }
 
+
     /* Top section start  */
     .top-section {
         display: block;
@@ -1124,7 +1125,7 @@ height: 22px;
 
     .card-title {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .title-small {
         font-size: 15px;
@@ -1225,13 +1226,17 @@ height: 22px;
 
     /* box for tritment  */
     .box .box-content {
-        padding: 20px 0 30px 40px;
+        padding: 20px 0 20px 20px;
+    }
+    .service-section .bg-box-img{
+        width: 100%;
+        height: 250px;
     }
 
     .box-title {
-        font-size: 25px;
-        line-height: 35px;
-        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 0;
     }
 
     .box .box-content p {
@@ -1241,24 +1246,49 @@ height: 22px;
         margin-bottom: 18px;
     }
 
+    .box .box-content .large-btn {
+        margin-top: 20px;
+    }
     .box .box-content .large-btn a {
         font-size: 10px;
+    }
+    .box .box-content ul li {
+        padding: 0 0;
+        font-size: 12px;
+        line-height: 22px;
     }
 
     /* box for success count  */
     .box .count {
-        padding: 30px 20px;
+        padding: 20px 0 10px 0;
         text-align: center;
     }
 
     .box .count .calender {
-        margin-bottom: 10px;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0;
+    }
+    .box .count .calender img{
+        width: 24px;
     }
 
     .count .medium-number {
-        font-size: 50px;
-        line-height: 60px;
-        margin-bottom: 10px;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 0;
+    }
+    .valuable-services {
+        padding: 15px 0 10px 0;
+    }
+    .valuable-services .img-res{
+        margin-bottom: 0;
+    }
+    .valuable-services .img-res img {
+        width: 24px;
+    }
+    .valuable-services p{
+        line-height: 14px;
     }
 
     /* service section end */
@@ -1286,6 +1316,10 @@ height: 22px;
         margin-top: -110px;
     }
 
+    .facality-skills .accordion-button {
+        padding: 15px 7px;
+        font-size: 14px;
+    }
     .accordion-faciliti .accordion-text p {
         font-size: 12px;
     }
@@ -1323,20 +1357,30 @@ height: 22px;
 
 
     /* our patient say obout us start */
+    .say-about-us {
+        padding: 10px 0;
+    }
     .say-about-us .title-extralarge {
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
 
     .say-about-us .text-sulg {
         font-size: 18px;
     }
 
-    .title-extralarge .title-medium {
-        font-size: 26px;
+    .title .title-extralarge {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 10px;
     }
 
     .about-container .profile-small-img {
         margin-bottom: 10px;
+    }
+
+    .about-container {
+        height: 265px;
+        gap: 0;
     }
 
     .about-container p {
@@ -1348,6 +1392,14 @@ height: 22px;
         margin-bottom: 10px;
     }
 
+    .about-container .profile-small-img {
+        width: 40px;
+        height: 50px;
+    }
+    .about-container .cotation-img {
+        width: 32px;
+        height: 30px;
+    }
 
 
 
@@ -1356,18 +1408,26 @@ height: 22px;
 
     /* Special Offers section start */
     .special-offer {
-        padding: 110px 0 10px 0;
+        padding: 70px 0 10px 0;
     }
 
-    .special-offer .title-extralarge {
+    .special-offer .title-medium {
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 0;
+    }
+    .special-offer .title{
         margin-bottom: 100px;
     }
+    .special-offer .title-extralarge {
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 0;
+    }
 
-    .special-offer .title-extralarge p {
-        font-size: 12px;
-        line-height: 22px;
+    .special-offer .title p {
         padding: 0;
-        text-align: justify;
     }
 
     .price-card {
@@ -1376,68 +1436,42 @@ height: 22px;
     }
 
     .price-card .price {
-        position: absolute;
-        left: 50%;
-        top: 0%;
-        transform: translate(-50%, -50%);
-        display: inline-block;
-        width: 130px;
-        height: 130px;
-        font-weight: 500;
-        border-radius: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #fd5364;
-        color: #ffffff;
-        font-weight: 500;
-        clip-path: circle(50% at 50% 50%);
+        width: 100px;
+        height: 100px;
+        font-size: 10px;
     }
 
     .price-card .price span {
-        font-weight: 400;
+        font-weight: 600;
         font-size: 32px;
-        letter-spacing: 2px;
+        margin-bottom: 5px;
     }
 
     .price-card .price-card-title {
-        background-color: #03263e;
-        padding: 90px 0 50px 0;
-        color: #fff;
-        text-align: center;
-        text-transform: uppercase;
+        padding: 65px 0 20px 0;
     }
 
     .price-card .price-card-title .text-sulg {
-        font-size: 15px;
-        margin-bottom: 0;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
 
-    .price-card .price-card-title .title-extralarge {
-        font-size: 22px;
+    .price-card .price-card-title .price-card-title-lg {
+        font-size: 18px;
         font-weight: 300;
         margin-bottom: 0;
     }
 
-    .price-card .price-card-content p:nth-child(odd) {
-        color: #ffffff;
+    .price-card .price-card-content li:nth-child(odd) {
         padding: 10px 0;
-        text-align: center;
-        margin-bottom: 0;
     }
 
-    .price-card .price-card-content p:nth-child(even) {
-        background-color: #03263e;
-        color: #ffffff;
+    .price-card .price-card-content li:nth-child(even) {
         padding: 10px 0;
-        text-align: center;
-        margin-bottom: 0;
     }
 
     .price-card .price-card-btn {
-        padding: 60px 0;
-        text-align: center;
+        padding: 10px 0 30px 0;
     }
 
     .price-card .price-card-btn a {
@@ -1457,7 +1491,7 @@ height: 22px;
     /* our-experienced-doctors section start */
 
     .our-experienced-doctors {
-        padding: 60px 0 15px 0;
+        padding: 20px 0 15px 0;
     }
 
     .our-experienced-doctors .title p {
@@ -1466,13 +1500,25 @@ height: 22px;
     }
 
     .our-experienced-doctors .text-title {
-        font-size: 26px;
+        font-size: 24px;
         text-align: center;
+    }
+    .our-experienced-doctors .title .title-small {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .our-experienced-doctors p {
         text-align: justify;
         font-size: 12px;
+    }
+
+    .our-experienced-doctors
+    .large-btn a {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 20px;
     }
 
     .our-experienced-doctors .large-btn {
@@ -1485,33 +1531,64 @@ height: 22px;
     }
 
     .our-experienced-doctors .card-lg {
-        padding: 30px 20px;
+        padding: 30px 25px 0;
+        margin: 0px 50px;
     }
 
     /* our-experienced-doctors section end */
 
     /* blog-section start  */
     .blog-bg {
-        height: 500px;
+        height: 430px;
+    }
+    .blog-card .card-top {
+        padding: 10px 12px 5px 12px;
+    }
+    .blog-card .card-text {
+        padding: 0 12px 0px;
+    }
+
+    .blog-card .card-text .title-medium{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog-card .blog-btn a {
+        width: 90%;
     }
 
     .blog-section .title {
-        padding: 40px 0 0 0;
+        padding: 20px 0 0 0;
     }
 
     .blog-section .title h4 {
-        font-size: 20px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 0;
     }
 
-    .blog-section .title .text-title {
-        font-size: 32px;
-        margin-bottom: 26px;
+    .blog-section .title .title-extralarge {
+        margin-bottom: 10px;
     }
 
     .blog-section .title p {
-        font-size: 12px;
-        padding: 0 10px;
+        line-height: 14px;
+        padding: 0;
     }
+    .blog-section .large-btn a {
+        padding: 6px 32px;
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .blog-card .blog-btn a {
+        display: inline-block;
+        padding: 8px 40px;
+        background-color: #fd5364;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 14px;
+        transition: all 0.3s;
+    }
+
 
     .card-area .large-btn a {
         margin: 0 0 30px 0;
@@ -1520,38 +1597,42 @@ height: 22px;
     /* blog-section end  */
 
     /* footer section start */
-    .footer-content {
-        padding: 80px 0 0 0;
+    .home-contact-section {
+        padding: 75px 0 10px 0;
     }
-
-    .footer-content .footer-top img {
-        width: 250px;
+    .home-contact-section .logo-text-block img {
+        width: 200px;
+        margin-bottom: 10px;
     }
-
-    .footer-content .footer-top {
-        padding: 0 0 40px 0;
-    }
-
-    .footer-content .footer-top p {
-        text-align: center;
+    .home-contact-section .logo-text-block p {
         font-size: 12px;
-        padding: 0 7%;
+        line-height: 22px;
+        margin-bottom: 10px;
     }
-
-    .footer-section .footer-help-area {
-        padding: 0 0 40px 0;
+    .home-contact-section .title-extralarge {
+        font-size: 36px;
+        line-height: 44px;
     }
-
-    .footer-section .footer-help-area .title-extralarge {
-        font-size: 32px;
+    .contact-default {
+        padding: 10px 0;
     }
-
-    .footer-section .footer-form-area {
-        margin-bottom: 40px;
+    .home-contact-section .large-btn a {
+        padding: 6px 32px;
+        font-size: 10px;
+        line-height: 20px;
     }
-
-    .location p {
-        font-size: 12px;
+    .input-item-wrap {
+        margin-bottom: 0;
+    }
+    .input-item {
+        width: 100%;
+    }
+    .input-item img {
+        right: 20px;
+    }
+    .text-block img {
+        width: 20px;
+        margin-bottom: 10px;
     }
 
     /* footer section end */
@@ -1593,6 +1674,11 @@ height: 22px;
     /* ==========================================================================
    *******    START :: DEFAULT PAGES DESIGN      ************
    ========================================================================== */
+   /* start::about page section  */
+   .about-page-section {
+    padding: 25px 0 20px 0;
+    }
+    /* end::about page section  */
     /* start::services page  */
     .page-banner-section{
         height: 130px;
@@ -1611,10 +1697,15 @@ height: 22px;
     .services-card .card-content {
         padding: 20px 5px 20px;
     }
+    .services-card .card-content .line,
+    .services-card .card-content p{
+        margin-bottom: 5px;
+    }
 
     .services-card .card-content h1 {
         padding: 0;
-        font-size: 16px;
+        font-size: 14px;
+        margin-bottom: 5px;
     }
 
     .card-content .time_and_desiges {
@@ -1622,6 +1713,24 @@ height: 22px;
     }
 
     /* end::services page  */
+
+    .text-block .title-large{
+        font-size: 22px;
+    }
+    .text-block p{
+        text-align: center;
+    }
+
+      /* start::contact us classes  */
+  .address-section ul{
+    padding: 20px 0 0;
+  }
+  .address-section ul li{
+    padding: 0  0 10px 0;
+    font-size: 12px;
+  }
+
+  /* end::contact classes  */
 
     /* ==========================================================================
    *******    END :: DEFAULT PAGES DESIGN      ************
