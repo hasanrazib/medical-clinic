@@ -131,6 +131,7 @@ input:focus {
   margin-left: -20px;
   overflow: hidden;
   margin-bottom: 0;
+
 }
 
 .page-banner-section .banner-content ul li {
@@ -141,6 +142,7 @@ input:focus {
 .page-banner-section .banner-content a {
   font-weight: 600;
   color: #edf2f5;
+  text-transform: capitalize;
 }
 
 .page-banner-section .banner-content ul i {
@@ -155,6 +157,7 @@ input:focus {
 .banner-content .active a {
   color: #9fcfff;
 }
+
 
 /* for every page bannarer section style end  */
 

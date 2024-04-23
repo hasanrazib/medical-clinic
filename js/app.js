@@ -2,9 +2,19 @@ $('.menu-bar-mobil').slicknav({
     duration: 500,
     prependTo:'.mobilemenu'
 });
-// For colorbox 
+
 $(document).ready(function(){
-  $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+  // For colorbox 
+  // $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+  $(".youtube").colorbox({iframe:true, innerWidth:680, innerHeight:382});
+  //media query for colorbox video.
+  if($(window).width() < 1024){
+  $(".youtube").colorbox({iframe:true, innerWidth:500, innerHeight:300});
+  }
+  if($(window).width() < 767){
+  $(".youtube").colorbox({iframe:true, innerWidth:320, innerHeight:250});
+  }
+  // matchHeight 
   $('.container-fluid .box').matchHeight();
   $('.container .services-card').matchHeight();
 //   $('.gallary-section .galary-img').matchHeight();

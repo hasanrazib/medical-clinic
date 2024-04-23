@@ -913,6 +913,12 @@ height: 22px;
     }
 
     /* end::services page  */
+      /* start::blog-content*/
+  .blog-content-writer .title-extralarge{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  /* end::blog-content*/
 
     /* ==========================================================================
    *******    END :: DEFAULT PAGES DESIGN      ************
@@ -1731,6 +1737,12 @@ height: 22px;
   }
 
   /* end::contact classes  */
+  /* start::blog-content*/
+  .blog-content-writer .title-extralarge{
+    font-size: 22px;
+    line-height: 52px;
+  }
+  /* end::blog-content*/
 
     /* ==========================================================================
    *******    END :: DEFAULT PAGES DESIGN      ************
