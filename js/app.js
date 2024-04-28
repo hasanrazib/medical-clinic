@@ -1,4 +1,4 @@
-$('.menu-bar-mobil').slicknav({
+$('.menu-bar-mobile').slicknav({
     duration: 500,
     prependTo:'.mobilemenu'
 });
@@ -17,7 +17,7 @@ $(document).ready(function(){
   // matchHeight 
   $('.container-fluid .box').matchHeight();
   $('.container .services-card').matchHeight();
-//   $('.gallary-section .galary-img').matchHeight();
+  $('.gallary-section .galary-img').matchHeight();
 });
 
 $('#aboutUs').owlCarousel({
@@ -62,8 +62,5 @@ function openSearch() {
   function closeSearch() {
     document.getElementById("myOverlay").style.display = "none";
   }
-
-
-
 
 

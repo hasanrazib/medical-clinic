@@ -23,9 +23,6 @@
     <link rel="stylesheet" href="./css/slicknav.css" />
     <!-- Font family  -->
     <!--custom CSS here -->
-    <link rel="stylesheet" href="css/re_usable.css">
-    <link rel="stylesheet" href="css/navbarstyle.css">
-    <link rel="stylesheet" href="css/blogs.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -34,49 +31,53 @@
     <header></header>
 
     <main>
-      <!-- start::Top section start  -->
+      <!-- Top section start  -->
       <section class="top-section" style="background-color:#002e4c;">
         <div class="container">
           <div class="content">
-    
-            <div class="contact">
-              <p><img src="assets/icons/.png" alt="location"> 19th Ave New York, NY 95822, USA</p>
-              <p><img src="assets/icons/.png" alt="call"> +1 916-85-2235</p>
-            </div>
-    
-            <div class="social-icon">
-              <a href="#"><img src="assets/icons/.png" alt="social-icon"></a>
-            </div>
-    
-    
-            <div class="top-small-menu">
-              <ul>
-                <li><a href="#"><img src="assets/icons/5.png" alt="arrow"> Contact Us</a></li>
-                <li><a href="#"><img src="assets/icons/5.png" alt="arrow"> Sign In</a></li>
-                <li><a href="#"><img src="assets/icons/5.png" alt="arrow"> More Menu</a></li>
-                <div class="btn-small"><a href="#">Join Now</a></div>
-              </ul>
-            </div>
-    
+
+              <div class="top-contact">
+                <span><i class="fa-solid fa-location-pin"></i> 19th Ave New York, NY 95822, USA</span>
+                <span><i class="fa-solid fa-headset"></i> +1 916-85-2235</span>
+              </div>
+
+              <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></i></a>
+              </div>
+
+
+              <div class="top-small-menu">
+                <ul>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> Sign In</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> More Menu</a></li>
+                  <div class="btn-extra-small"><a href="#">Join Now</a></div>
+                </ul>
+              </div>
+
           </div>
         </div>
       </section>
-      <!-- end::Top section end  -->
-    
+      <!-- Top section end  -->
+
       <!-- Nav section start   -->
       <section class="nav-section" style="background-color:#0d4468;">
         <div class="container">
           <div class="row">
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-2">
               <div class="logo">
                 <a href="index.html"><img src="assets/icons/Logo Left.png" alt=""></a>
-                <!-- <a href="#"><img src="assets/icons/vector logo.png" alt="log"><span>The</span><span>gem</span></a> -->
               </div>
             </div>
-            <div class="col-10 col-sm-10">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-8 col-xl-10">
               <div class="menu-item">
                 <div class="menu-bar">
-
                   <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About </a></li>
@@ -93,10 +94,10 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact us</a></li>
                   </ul>
-
                 </div>
-                <div class="mobilemenu"></div>
-                <div class="menu-bar-mobil">
+                <div class="mobilemenu">
+                </div>
+                <div class="menu-bar-mobile">
                   <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About </a></li>
@@ -121,7 +122,7 @@
                     </div>
                   </div>
                 </div> -->
-                <div class="search">
+                <div class="search-area">
                   <button class="openBtn" onclick="openSearch()"><i class="fas fa-search"></i></button>
                 </div>
               </div>
@@ -136,12 +137,12 @@
         <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
         <div class="overlay-content">
           <form action="">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
+            <input type="text" autocomplete="off" placeholder="Search.." name="search">
+            <button type="submit">Search</button>
           </form>
         </div>
       </div>
-      <!-- search area  -->
+      <!-- search area  -->  
     
       <!-- start::banner section  -->
       <section class="page-banner-section"
@@ -150,11 +151,10 @@
           <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
               <div class="banner-content">
-                <h1 class="title-extralarge">Video Gallary</h1>
+                <h1 class="title-extralarge">Photos</h1>
                 <ul>
                   <li><a href="index.html">Home</a> <i class="fa-solid fa-arrow-right"> </i></li>
-                  <li><a href="#">Galarry</a><i class="fa-solid fa-arrow-right"> </i></li>
-                  <li class="active"><a href="video.html">Videos</a></li>
+                  <li class="active"><a href="photo.html">Photo</a></li>
                 </ul>
               </div>
             </div>
@@ -164,7 +164,7 @@
       <!-- end::banner section -->
     
       <!-- start::video & photo gallery section   -->
-      <section class="gallary-section">
+      <section class="gallary-section page-section-p">
         <div class="container">
           <div class="row">
     
@@ -340,30 +340,36 @@
       </section>
       <!-- end::video & photo gallery section   -->
     
-      <!-- start::base section   -->
-      <div class="base-section">
+      <!-- Start::Footer section  -->
+      <div class="footer-section">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 order-1 order-sm-3 order-md-1">
+            <div class="col-12  col-sm-12 col-md-6 col-lg-4 col-xl-4 order-1 order-sm-3 order-md-1">
               <p>@copyright 2024 <a href="#">CodexThem</a></p>
             </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 order-2 order-sm-2 order-md-2">
+            <div class="col-12  col-sm-12 col-md-6 col-lg-6 col-xl-4 order-2 order-sm-2 order-md-2">
               <ul>
                 <li><a href="#">Support</a></li> |
                 <li><a href="#">Contact Us</a></li> |
                 <li><a href="#">Disclaimer</a></li> |
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li> 
               </ul>
             </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-4 order-3 order-sm-1 order-md-3">
+            <div class="col-12  col-sm-12 col-md-2 col-lg-2 col-xl-4 order-3 order-sm-1 order-md-3">
               <div class="social-icons">
-                <img src="assets/icons/social-media.png" alt="social media">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- start::base section   -->
+      <!-- End::Footer section  -->
 
     </main>
 

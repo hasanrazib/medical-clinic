@@ -7,318 +7,50 @@
         font-size: 14px;
         line-height: 20px;
     }
-
-    .top-section .social-icon {
-        display: none;
-    }
-
-    .mobilemenu {
-        display: none;
-    }
-
-    .menu-bar {
-        display: block;
-    }
-
-    .nav-section .logo {
-        padding: 15px 0;
-    }
-
-    /*============================================================
-        Start Home screen 
-    ============================================================ */
-
-    /* banner section start */
-    .banner-section {
-        height: 730px;
-    }
-
     .banner-text {
-        padding: 55px 0 25px 0;
-        /* border: 1px solid red; */
+        padding: 25px 0 0 0;
     }
-
-    .banner-text .title-extralarge {
-        line-height: 60px;
-        word-spacing: 3%;
-        padding: 0 50% 0 0;
-        margin-bottom: 10px;
+    .banner-text {
+        left: 3%;
+        top: 7%;
     }
-
-    .banner-text h6 {
-        margin-bottom: 15px;
+    .apoinment-cards {
+        left: 20px;
     }
-
-    .banner-text h4 {
-        font-size: 26px;
-        line-height: 36px;
-    }
-
-    /* banner section end  */
-    /* Apoinment and hour section start */
-    .apoinment-hour-section {
-        margin-top: -310px;
-    }
-
-    .card-lg {
-        padding: 30px 35px 0 35px;
-    }
-
-    .card-lg .title-small {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .card-lg .title-large {
-        font-size: 26px;
-        margin-bottom: 15px;
-        line-height: 36px;
-    }
-
     .card-content {
-        background-color: #ffffff;
-        padding: 30px 30px 20px 30px;
+        padding: 60px 30px 40px;
     }
-
-    .card-form input,
-    select,
-    textarea {
-        background-color: #f6fbff;
-        padding: 10px 15px;
-        font-size: 14px;
-        font-weight: 500;
-        margin-bottom: 10px;
-    }
-
-    .card-form textarea {
-        height: 250px;
-    }
-
-    .card-form .large-btn {
-        margin-top: 0;
-    }
-
-    /* blue card  */
-    .card-blue .card-content {
-        padding-top: 20px;
-    }
-
-    .card-blue .list-data ul {
-        margin-bottom: 20px;
-    }
-
-    .date-time p {
-        margin-bottom: 4px;
-    }
-
-    .b-line {
-        border-bottom: 1px solid #d5dade;
-        margin-bottom: 10px;
-    }
-
-    /* Apoinment and hour section end */
-
-    /* about section start  */
     .about-section {
-        padding: 30px 0 40px 0;
+        padding: 10px 0;
     }
-
-    .about-section .title {
-        padding: 0px;
+    .box {
+        padding: 35px 20px;
     }
-
-    .about-section .title p {
-        padding: 0 45px 0 0;
-    }
-
-    /* about section end  */
-
-    /* service section start */
-    .service-section {
-        margin-bottom: 0;
-    }
-
-    /* box for tritment  */
-    .box .box-content {
-        padding: 20px 10px 30px 30px;
-    }
-
-    .box-title {
-        font-size: 25px;
-        line-height: 35px;
-        margin-bottom: 10px;
-    }
-
-    .box .box-content .large-btn {
-        margin-top: 30px;
-    }
-
-    /* box for success count  */
-    .box .count .calender {
-        margin-bottom: 10px;
-    }
-
-    .count .medium-number {
-        font-size: 50px;
-        line-height: 60px;
-        margin-bottom: 10px;
-    }
-
-
-    /* service section end */
-    /* what we do section start */
     .timeline-section {
-        height: 1200px;
-        padding: 50px 0 15px 0;
-    }
-
-    .what-we-do-section .title {
-        margin-bottom: 70px;
+        height: 1310px;
+        padding: 90px 0 40px 0;
     }
 
 
-
-    /* what we do section end */
-
-    /* Special Offers section start */
-    .special-offer {
-        padding: 150px 0 0 0;
+    /*=============================================================
+     start::default page   
+     ==============================================================*/
+    .about-page-section {
+        padding: 40px 0;
     }
-
-    .special-offer .title {
-        color: #ffffff;
-        margin-bottom: 110px;
+    .our-serviceses-section {
+        padding: 40px 0;
     }
-
-    .special-offer .title p {
-        padding: 0;
+    .gallary-section {
+        padding: 40px 0;
     }
-
-    .price-card .price-card-title {
-        padding: 90px 0 30px 0;
+    .address-section {
+        padding: 40px 0;
     }
-
-    .price-card .price-card-content li:nth-child(odd) {
-        padding: 15px 0;
-    }
-
-    .price-card .price-card-content li:nth-child(even) {
-        padding: 15px 0;
-    }
-
-
-
-    /* end::our special offer  */
-
-
-    /* our patient say obout us section start */
-    .our-experienced-doctors {
-        padding: 55px 0 0 0;
-    }
-
-    .our-experienced-doctors .title p {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-
-    .our-experienced-doctors .text-title {
-        font-size: 22px;
-    }
-
-    .our-experienced-doctors p {
-        margin-bottom: 25px;
-    }
-
-    /* our patient say obout us section end */
-
-    /* blog-section start  */
-    .blog-bg {
-        height: 500px;
-    }
-
-    .blog-section .title {
-        padding: 60px 0 0 0;
-    }
-
-    .blog-section .title p {
-        padding: 0;
-    }
-
-    /* card-area  */
-    .card-area {
-        margin-top: -200px;
-    }
-
-    .blog-card .card-top {
-        padding: 15px 15px 5px 15px;
-    }
-
-    .blog-card .card-text {
-        padding: 0 15px 0px;
-    }
-
-    .blog-card .card-text .title-medium {
-        font-size: 18px;
-    }
-
-    .blog-card .card-text .title-medium span {
-        font-weight: 700;
-    }
-
-    .blog-card .blog-btn a {
-        padding: 10px 80px;
-
-    }
-
-    .blog-card .blog-btn a:hover {
-        background-color: #076bae;
-    }
-
-    .card-area .large-btn a {
-        margin: 0 0 50px 0;
-        display: inline-block;
-    }
-
-    /* blog-section start  */
-
-    /* base section start  */
-    .base-section {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    /* base section end  */
-    /*============================================================
-        END ::  Home screen Design
-    ============================================================ */
-
-
-    /* ==========================================================================
-   *******    START :: DEFAULT PAGES DESIGN      ************
-   ========================================================================== */
-    /* start::services page  */
-    .page-banner-section .banner-content .title-extralarge {
-        padding: 130px 0 90px 0;
-    }
-
-    .services-card .card-content {
-        padding: 20px 5px 20px;
-    }
-
-    .services-card .card-content h1 {
-        padding: 0;
-        font-size: 16px;
-    }
-
-    .card-content .time_and_desiges {
-        font-size: 10px;
-    }
-
-    /* end::services page  */
-
-    /* ==========================================================================
-   *******    END :: DEFAULT PAGES DESIGN      ************
-   ========================================================================== */
+    /*=============================================================
+     end::default page
+     ==============================================================*/
+    
 }
 
 
@@ -330,666 +62,10 @@
         font-size: 12px;
         line-height: 22px;
     }
-
-    .top-section .content .contact {
-        display: none;
+    .top-section .content {
+        font-size: 9px;
+        line-height: 12px;
     }
-
-    .nav-section {
-        padding: 15px 0;
-    }
-
-    .mobilemenu {
-        display: block;
-    }
-
-    .menu-bar {
-        display: none;
-    }
-
-    .nav-section .logo {
-        padding: 0;
-    }
-
-    .slicknav_menu .slicknav_menutxt {
-        display: none;
-    }
-
-    .slicknav_menu .slicknav_icon {
-        position: absolute;
-        right: 10px;
-        top: 0px;
-    }
-
-    .slicknav_menu {
-        background: none;
-        padding: 0;
-    }
-
-    .slicknav_btn {
-        position: relative;
-        background-color: transparent;
-        margin: 0;
-    }
-
-    .slicknav_nav {
-        background-color: #03263e;
-        position: absolute;
-        right: 115px;
-        top: 100%;
-        width: 40%;
-    }
-
-    .slicknav_nav p {
-        padding: 10px 0 0 20px;
-        text-align: left;
-        margin-bottom: 8px;
-    }
-
-
-    .dropdown-menu-custom .dropdown-menu {
-        transform: translate3d(105px, 20px, 0px) !important;
-    }
-
-    .slicknav_nav a:hover {
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        border-radius: 0px;
-        background: #033150;
-        color: #ffffff;
-    }
-
-    .slicknav_nav a {
-        padding: 2px 0;
-        margin: 0;
-    }
-
-    .search {
-        margin-top: 2px;
-    }
-    .fa-search{
-        margin-top: 10px;
-    }
-    .overlay button {
-        padding: 11.6px;
-    }
-    /*============================================================
-        Start ::  Home screen 
-    ============================================================ */
-
-    /* banner section start */
-    .banner-section {
-        height: 600px;
-        background-color: #0005;
-        background-blend-mode: darken;
-    }
-
-    .banner-text {
-        padding: 35px 0 45px 0;
-        /* border: 1px solid red; */
-    }
-
-    .banner-text .title-extralarge {
-        font-size: 40px;
-        line-height: 50px;
-    }
-
-    .banner-text h6 {
-        font-size: 16px;
-        padding: 0 45% 0 0;
-    }
-
-    .banner-text h4 {
-        padding: 0 35% 0 0;
-        font-size: 22px;
-        line-height: 32px;
-    }
-
-    /* banner section end  */
-
-    /* Apoinment and hour section start */
-    .apoinment-hour-section {
-        margin-top: -310px;
-    }
-
-    .card-lg {
-        height: 100%;
-        margin: 0;
-        padding: 30px 25px 0 25px;
-        margin-bottom: 20px;
-    }
-
-
-    .card-lg .title-small {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .card-lg .title-large {
-        font-size: 26px;
-        margin-bottom: 15px;
-        line-height: 36px;
-    }
-
-    .card-content {
-        background-color: #ffffff;
-        padding: 20px 20px 15px 20px;
-    }
-
-    .card-form input,
-    select,
-    textarea {
-        background-color: #f6fbff;
-        padding: 8px 10px;
-        font-size: 14px;
-        font-weight: 500;
-        margin-bottom: 10px;
-    }
-
-    .card-form textarea {
-        height: 80px;
-    }
-
-    .card-form .large-btn {
-        margin-top: 0;
-    }
-
-    /* blue card  */
-
-    .card-blue .card-content {
-        padding-top: 20px;
-    }
-
-    .card-blue .list-data ul {
-        margin-bottom: 20px;
-    }
-
-    .date-time p {
-        margin-bottom: 4px;
-    }
-
-    .b-line {
-        border-bottom: 1px solid #d5dade;
-        margin-bottom: 10px;
-    }
-
-    .large-btn a {
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 20px;
-    }
-
-
-    /* Apoinment and hour section end */
-
-    /* about section start  */
-    .about-section {
-        background-color: #073757a6;
-        background-blend-mode: darken;
-        padding: 30px 0 40px 0;
-    }
-
-    .about-section .title {
-        padding: 0px;
-    }
-
-    .about-section .title h1,
-    .about-section .title h3,
-    .about-section .title p {
-        color: #fff;
-    }
-
-
-    .about-section .title p {
-        text-align: justify;
-        padding: 0 65px 0 0;
-    }
-
-    /* about section end  */
-
-    /* our patient say obout us start */
-    .about-section {
-        padding: 30px 0;
-    }
-
-    /* Apoinment and hour section start */
-    .apoinment-hour-section {
-        margin-top: -240px;
-    }
-
-
-    .our-experienced-doctors .card-lg {
-        margin: 0;
-    }
-
-    /* Apoinment and hour section end */
-
-/* service section start */
-.service-section {
-    margin-bottom: 0;
-}
-
-/* box for tritment  */
-.box .box-content {
-    padding: 20px 10px 30px 30px;
-}
-
-.box-title {
-    font-size: 25px;
-    line-height: 35px;
-    margin-bottom: 10px;
-}
-
-.box .box-content .large-btn {
-    margin-top: 30px;
-}
-
-/* box for success count  */
-.box .count .calender {
-    margin-bottom: 10px;
-}
-
-.count .medium-number {
-    font-size: 50px;
-    line-height: 60px;
-    margin-bottom: 10px;
-}
-
-.valuable-services {
-    padding: 50px 20px 30px 20px;
-    margin: 0 auto;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.valuable-services {
-    padding:20px 12px;
-}
-.valuable-services .img-res{
-width: 22px;
-height: 22px;
-}
-.valuable-services .img-res img{
-    width: 100%;
-}
-
-.valuable-services .title-small{
-    font-size: 14px;
-    line-height: 26px;
-  }
-  .valuable-services p{
-    font-size: 10px;
-    line-height: 20px;
-  }
-
-/* service section end */
-
-    /*start ::  what we do best section  */
-    .timeline-section {
-        height: 1000px;
-        padding: 50px 0 15px 0;
-    }
-
-    /* start::facality-skills  */
-    .facality-skills {
-        margin-top: -120px;
-    }
-
-    /* Accordian styel start  */
-    .accordion-button {
-        padding: 10px 0;
-        border-radius: 0;
-        font-size: 14px;
-    }
-
-    .accordion-body {
-        color: #5f727f;
-        padding: 0;
-    }
-
-    .accordion-button:not(.collapsed) {
-        color: #f4616f;
-        background-color: #fff;
-        border-radius: 0;
-    }
-
-    /*end ::  what we do best section  */
-
-
-    /* our patient say obout us section start */
-    .say-about-us {
-        padding: 30px 0;
-    }
-
-    .say-about-us .title-extralarge {
-        margin-bottom: 20px;
-    }
-
-    .say-about-us .about-container {
-        height: 320px;
-    }
-
-    .about-container p {
-        font-size: 14px;
-    }
-
-    /* our patient say obout us section end */
-
-    /* Special Offers section start */
-    .special-offer {
-        padding: 100px 0 0;
-    }
-
-    .special-offer .title {
-        margin-bottom: 110px;
-    }
-
-    .special-offer .title-extralarge {
-        margin-bottom: 20px;
-    }
-
-    .special-offer .title p {
-        padding: 0;
-    }
-
-    .price-card .price {
-        width: 110px;
-        height: 110px;
-    }
-
-    .price-card .price span {
-        font-size: 22px;
-        line-height: 28px;
-    }
-
-    .price-card .price-card-title {
-        padding: 80px 0 20px 0;
-    }
-
-    .price-card .price-card-title .text-sulg {
-        font-size: 13px;
-    }
-
-    .price-card .price-card-title .price-card-title-lg {
-        font-size: 18px;
-    }
-
-    .price-card .price-card-content li:nth-child(odd) {
-        padding: 10px 0;
-    }
-
-    .price-card .price-card-content li:nth-child(even) {
-        padding: 12px 0;
-    }
-
-    .price-card .price-card-btn {
-        padding: 20px 0;
-    }
-
-    /* end::our special offer  */
-
-    /* our-experienced-doctors section start */
-
-    .our-experienced-doctors {
-        padding: 35px 0;
-    }
-
-    .our-experienced-doctors .text-title {
-        font-size: 28px;
-    }
-
-    .our-experienced-doctors .title .title-small {
-        font-size: 14px;
-        font-weight: 200;
-        margin-bottom: 10px;
-    }
-
-    .our-experienced-doctors .team-person .card-lg {
-        margin: 0 60px;
-        padding: 20px 20px;
-    }
-
-    .our-experienced-doctors p {
-        margin-bottom: 35px;
-    }
-
-    .doc-info {
-        padding: 10px 0 0;
-        text-align: center;
-    }
-
-    .doc-info h4 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 0;
-    }
-
-    .doc-info span {
-        font-size: 12px;
-        line-height: 22px;
-        margin-bottom: 5px;
-    }
-
-    .doc-info h3 {
-        font-size: 18px;
-        line-height: 26px;
-        margin-bottom: 0;
-    }
-
-    /* our-experienced-doctors section end */
-
-    /* blog-section start  */
-    .blog-bg {
-        height: 500px;
-    }
-
-    .blog-section .title {
-        padding: 40px 0 0 0;
-    }
-
-    .blog-section .title p {
-        padding: 0;
-    }
-
-    .blog-section .title .title-medium {
-        font-size: 18px;
-        line-height: 36px;
-        margin-bottom: 10px;
-    }
-
-    .blog-section .title .title-extralarge {
-        font-size: 36px;
-        line-height: 46px;
-        margin-bottom: 10px;
-    }
-
-    /* card-area  */
-    .card-area {
-        margin-top: -225px;
-    }
-
-    .blog-card .card-top {
-        padding: 25px 25px 0;
-    }
-
-    .blog-card .card-text {
-        padding: 0 25px 0px;
-    }
-
-    .blog-card .card-text .title-medium {
-        font-size: 18px;
-    }
-
-    .blog-card .card-text .title-medium span {
-        font-weight: 700;
-    }
-
-    .blog-card .blog-btn a {
-        padding: 10px 80px;
-
-    }
-
-    .blog-card .blog-btn a:hover {
-        background-color: #076bae;
-    }
-
-    .card-area .large-btn a {
-        margin: 0 0 50px 0;
-        display: inline-block;
-    }
-
-    /* blog-section start  */
-
-    /* start:: home-contact-section  */
-    .home-contact-section {
-        padding: 110px 0 30px 0;
-        text-align: center;
-    }
-
-    .home-contact-section .logo-text-block img {
-        width: 250px;
-    }
-
-    .home-contact-section .logo-text-block p {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    .home-contact-section .text-block {
-        margin-bottom: 10px;
-    }
-
-    .home-contact-section .title-extralarge{
-        font-size: 36px;
-    }
-
-    .contact-default {
-        padding: 20px 0 30px;
-    }
-
-
-    /* end:: home-contact-section  */
-    /* start::map section  */
-    .map-section {
-        height: 200px;
-      }
-    /* end::map section  */
-
-    /* footer section start  */
-    .base-section .social-icons {
-        display: none;
-    }
-
-    /* footer section end  */
-
-    /* ==========================================================================
-   *******    START :: DEFAULT PAGES DESIGN      ************
-   ========================================================================== */
-    /* start::services page  */
-    .page-banner-section{
-        height: 200px;
-    }
-    .page-banner-section .banner-content .title-extralarge {
-        font-size: 36px;
-        line-height: 36px;
-        padding: 80px 0 40px 0;
-    }
-
-    .services-card .card-content {
-        padding: 20px 5px 20px;
-    }
-
-    .services-card .card-content h1 {
-        padding: 0;
-        font-size: 16px;
-    }
-
-    .card-content .time_and_desiges {
-        font-size: 10px;
-    }
-
-    /* end::services page  */
-      /* start::blog-content*/
-  .blog-content-writer .title-extralarge{
-    font-size: 28px;
-    line-height: 32px;
-  }
-  /* end::blog-content*/
-
-    /* ==========================================================================
-   *******    END :: DEFAULT PAGES DESIGN      ************
-   ========================================================================== */
-
-
-
-}
-
-/* Mobile Layout: 320px. */
-
-@media only screen and (max-width: 767px) {
-    body {
-        background-color: rgb(41, 214, 177) !important;
-        font-size: 10px;
-        line-height: 20px;
-    }
-
-
-    /* Top section start  */
-    .top-section {
-        display: block;
-    }
-    .top-section .content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .top-section .content .contact{
-        display: none;
-    }
-    .top-section .content .top-small-menu{
-        text-align: center;
-        width: 100%;
-    }
-    .top-small-menu a {
-        color: #99a9b5;
-        margin-left: 0;
-        font-size: 8px;
-    }
-    .top-small-menu ul li {
-        margin-right: 5px;
-    }
-    .top-small-menu ol,
-    .top-small-menu ul {
-        padding-left: 30px;
-    }
-    .btn-small a {
-        color: #fff;
-        padding: 3px 8px;
-        border-radius: 2px;
-    }
-
-    /* top section end  */
-
-    /* nav section start  */
-    .nav-section {
-        padding: 5px 0;
-    }
-
-    .nav-section .logo {
-        display: block;
-        height: 100%;
-        padding: 5px 0;
-    }
-
-    .nav-section .logo span {
-        display: none;
-    }
-
     .menu-bar {
         display: none;
     }
@@ -997,21 +73,7 @@ height: 22px;
     .mobilemenu {
         display: block;
     }
-
-    /* search area  */    
-    .openBtn{
-        margin-top: 6px;
-    }
-    .overlay button {
-        padding: 11.6px;
-        font-size: 15px;
-    }
-    .fa-search {
-        margin-top: 10px;
-    }
-    /* search area  */
-
-
+    /* slick nav */
     .slicknav_menu .slicknav_menutxt {
         display: none;
     }
@@ -1039,6 +101,7 @@ height: 22px;
         right: 0px;
         top: 100%;
         width: 100%;
+        padding: 12px 0;
     }
 
     .slicknav_nav p {
@@ -1051,698 +114,571 @@ height: 22px;
     .dropdown-menu-custom .dropdown-menu {
         transform: translate3d(105px, 20px, 0px) !important;
     }
+    .slicknav_nav .slicknav_row {
+        padding: 0;
+        margin: 0;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        background: #043150;
+        color: #fff;
+    }
 
+    .slicknav_nav a:hover {
+        background-color: transparent;
+        color: inherit;
+    }
 
     .slicknav_nav a {
-        padding: 2px 0;
+        padding: 5px 0;
         margin: 0;
     }
 
+    /* slick nav */
 
-    .search-area img {
-        padding-left: 15px;
+    .menu-item {
+        margin-top: 7px;
+    }
+    .nav-section .menu-item .fa-search {
+        margin-top: 18px;
     }
 
-    .search-area img {
-        display: none;
-    }
 
-    /* banner section start */
-    .banner-section {
-        height: 500px;
-        background-color: #0005;
-        background-blend-mode: darken;
+    .main-banner-section {
+        height: 750px;
     }
-
     .banner-text {
-        padding: 40px 0 25px 0;
-        text-align: center;
+        left: 5%;
+        top: 6%;
     }
-
     .banner-text .title-extralarge {
-        font-size: 30px;
-        line-height: 40px;
-        padding: 0 5px;
-        margin-bottom: 10px;
+        font-size: 46px;
+        line-height: 60px;
     }
-
-    .banner-text h6 {
-        color: #ffffff;
-        font-size: 14px;
-        line-height: 24px;
-        padding: 0;
-        margin-bottom: 10px;
+    .apoinment-cards {
+        left: 26px;
+        top: -314px;
     }
-
-    .banner-text h4 {
-        font-size: 18px;
-        line-height: 28px;
-        padding: 0;
-    }
-
-    /* Apoinment and hour section start */
-    .apoinment-hour-section {
-        margin-top: -180px;
-    }
-    .apoinment-hour-section .card-lg{
-        background-size: 100% 240px;
-    }
-
     .card-lg {
-        margin: 0;
-        padding: 30px 20px;
+        padding: 20px;
     }
-
     .card-content {
-        padding: 30px 15px 30px 15px;
+        padding: 45px 22px 17px;
+    }
+    .title-small {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .title-large {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 20px;
     }
     .card-form input, select, textarea {
-        padding: 8px 5px 8px 10px;
-        border: 1px solid #dff3fd;
-        font-size: 12px;
-        line-height: 18px;
-        font-weight: 600;
-        margin-bottom: 14px;
+        padding: 10px;
+        font-size: 14px;
     }
-    .card-form textarea {
-        height: 80px;
-        margin-bottom: 0;
+    .apoinment-hour-section {
+        margin-bottom: 445px;
     }
-
-    .card-title {
-        text-align: center;
-        margin-bottom: 10px;
+    .about-section {
+        padding:50px 0;
+        background-color: rgba(3, 18, 32, 0.333);
+        background-blend-mode: darken;
+        color: #fff;
+    }
+    .about-section .text-area {
+        padding: 0;
+    }
+    .box {
+        padding: 35px 50px;
+    }
+    .valuable-services .img-res {
+        margin-bottom: 40px;
+        width: 24px;
+        height: 24px;
     }
     .title-small {
         font-size: 15px;
-        line-height: 20px;
     }
-
-    .card-lg h1 {
-        font-size: 22px;
-        line-height: 32px;
+    .timeline-section {
+        height: 1248px;
+        padding: 57px 0 75px 0;
     }
-
-    .card-blue {
-        margin-top: 60px;
-    }
-
-    .card-blue .card-title {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 25px;
-    }
-
-    .card-blue .card-title p {
-        float: left;
-        font-size: 26px;
-        line-height: 36px;
-    }
-
-    .card-blue .card-title h1 {
-        padding-left: 10px;
-        float: left;
-        margin-bottom: 0;
-
-    }
-    .card-form .large-btn {
-        margin-top: 10px;
-    }
-    .card-form .large-btn a{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .date-time p{
-        font-size: 14px;
-        line-height: 24px;
-        margin-bottom: 0;
-    }
-    .card-blue .list-data ul {
-        margin-bottom: 15px;
-    }
-    .card-blue {
-        margin-top: 0;
-    }
-
-
-    /* Apoinment and hour section end */
-    /* banner section end  */
-
-
-
-    /* about section start  */
-    .about-section {
-        background-color: #073757a6;
-        background-blend-mode: darken;
-        padding: 40px 0;
-        /* border: 1px solid rgb(138, 27, 4); */
-    }
-
-    .about-section .title {
-        color: #ffffff;
-        padding: 0;
-        /* border: 1px solid rgb(138, 27, 4); */
-    }
-
-    .about-section .title .title-extralarge {
-        color: #ffffff;
-        font-size: 28px;
-        line-height: 38px;
-    }
-
-    .about-section .title-medium {
-        color: #ffffff;
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .about-section .title p {
-        color: #ffffff;
-    }
-
-    .btn-medium a {
-        font-size: 10px;
-    }
-
-    /* about section end  */
-
-    /* service section start */
-    .service-section {}
-
-    /* box for tritment  */
-    .box .box-content {
-        padding: 20px 0 20px 20px;
-    }
-    .service-section .bg-box-img{
-        width: 100%;
-        height: 250px;
-    }
-
-    .box-title {
-        font-size: 22px;
-        line-height: 30px;
-        margin-bottom: 0;
-    }
-
-    .box .box-content p {
-        display: flex;
-        font-size: 12px;
-        line-height: 16px;
-        margin-bottom: 18px;
-    }
-
-    .box .box-content .large-btn {
-        margin-top: 20px;
-    }
-    .box .box-content .large-btn a {
-        font-size: 10px;
-    }
-    .box .box-content ul li {
-        padding: 0 0;
-        font-size: 12px;
-        line-height: 22px;
-    }
-
-    /* box for success count  */
-    .box .count {
-        padding: 20px 0 10px 0;
-        text-align: center;
-    }
-
-    .box .count .calender {
+    .about-container .profile-small-img {
         width: 50px;
         height: 50px;
-        margin-bottom: 0;
     }
-    .box .count .calender img{
-        width: 24px;
-    }
-
-    .count .medium-number {
-        font-size: 36px;
-        line-height: 42px;
-        margin-bottom: 0;
-    }
-    .valuable-services {
-        padding: 15px 0 10px 0;
-    }
-    .valuable-services .img-res{
-        margin-bottom: 0;
-    }
-    .valuable-services .img-res img {
-        width: 24px;
-    }
-    .valuable-services p{
-        line-height: 14px;
+    .about-container .title-medium {
+        width: 80%;
     }
 
-    /* service section end */
-
-
-    /* what we do section start */
-    .timeline-section {
-        height: 950px;
-        padding: 50px 0 75px 0;
-    }
-
-    .what-we-do-section .title {
-        margin-bottom: 40px;
-    }
-
-    .what-we-do-section .title-extralarge {
-        font-size: 28px;
-    }
-
-    .what-we-do-section .title p {
-        font-size: 14px;
-    }
-
-    .facality-skills {
-        margin-top: -110px;
-    }
-
-    .facality-skills .accordion-button {
-        padding: 15px 7px;
-        font-size: 14px;
-    }
-    .accordion-faciliti .accordion-text p {
-        font-size: 12px;
-    }
-
-    .accordion-faciliti-body p {
-        font-size: 12px;
-        text-align: justify;
-    }
-
-    .what-we-do-section .list-data .text {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .what-we-do-section .list-data p {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-
-    .what-we-do-section .list-data h1 {
-        font-size: 16px;
-        margin-bottom: 0;
-    }
-
-    /* what we do section end */
-
-
-
-
-
-    /* services section start  */
-    /* services section end  */
-
-
-
-    /* our patient say obout us start */
-    .say-about-us {
-        padding: 10px 0;
-    }
-    .say-about-us .title-extralarge {
-        margin-bottom: 0;
-    }
-
-    .say-about-us .text-sulg {
-        font-size: 18px;
-    }
-
-    .title .title-extralarge {
-        font-size: 28px;
-        line-height: 36px;
-        margin-bottom: 10px;
-    }
-
-    .about-container .profile-small-img {
-        margin-bottom: 10px;
-    }
-
-    .about-container {
-        height: 265px;
-        gap: 0;
-    }
-
-    .about-container p {
-        text-align: justify;
-        font-size: 12px;
-    }
-
-    .about-container span {
-        margin-bottom: 10px;
-    }
-
-    .about-container .profile-small-img {
-        width: 40px;
-        height: 50px;
-    }
-    .about-container .cotation-img {
-        width: 32px;
-        height: 30px;
-    }
-
-
-
-    /* our patient say obout us start */
-
-
-    /* Special Offers section start */
-    .special-offer {
-        padding: 70px 0 10px 0;
-    }
-
-    .special-offer .title-medium {
-        font-weight: 100;
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 0;
-    }
-    .special-offer .title{
-        margin-bottom: 100px;
-    }
-    .special-offer .title-extralarge {
-        font-size: 36px;
-        line-height: 46px;
-        margin-bottom: 0;
-    }
-
-    .special-offer .title p {
-        padding: 0;
-    }
-
-    .price-card {
-        position: relative;
-        background-color: #033150;
-    }
-
-    .price-card .price {
-        width: 100px;
-        height: 100px;
+    .footer-section {
         font-size: 10px;
     }
 
-    .price-card .price span {
-        font-weight: 600;
-        font-size: 32px;
-        margin-bottom: 5px;
-    }
+    /* footer section end  */
 
-    .price-card .price-card-title {
-        padding: 65px 0 20px 0;
-    }
-
-    .price-card .price-card-title .text-sulg {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-
-    .price-card .price-card-title .price-card-title-lg {
-        font-size: 18px;
-        font-weight: 300;
-        margin-bottom: 0;
-    }
-
-    .price-card .price-card-content li:nth-child(odd) {
-        padding: 10px 0;
-    }
-
-    .price-card .price-card-content li:nth-child(even) {
-        padding: 10px 0;
-    }
-
-    .price-card .price-card-btn {
-        padding: 10px 0 30px 0;
-    }
-
-    .price-card .price-card-btn a {
-        padding: 10px 20px;
-        border: 1px solid #909090;
-        color: #909090;
-        transition: 0.2s;
-    }
-
-    .price-card .price-card-btn a:hover {
-        border: 1px solid #ffffff;
-        color: #ffffff;
-    }
-
-    /* Special Offers section end */
-
-    /* our-experienced-doctors section start */
-
-    .our-experienced-doctors {
-        padding: 20px 0 15px 0;
-    }
-
-    .our-experienced-doctors .title p {
-        text-align: center;
-        font-size: 14px;
-    }
-
-    .our-experienced-doctors .text-title {
-        font-size: 24px;
-        text-align: center;
-    }
-    .our-experienced-doctors .title .title-small {
-        font-size: 14px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .our-experienced-doctors p {
-        text-align: justify;
-        font-size: 12px;
-    }
-
-    .our-experienced-doctors
-    .large-btn a {
-        font-size: 10px;
-        font-weight: 700;
-        line-height: 20px;
-    }
-
-    .our-experienced-doctors .large-btn {
-        text-align: left;
-    }
-
-    .our-experienced-doctors .card-lg .card-content {
-        background-color: #e9edf0;
-        height: 90%;
-    }
-
-    .our-experienced-doctors .card-lg {
-        padding: 30px 25px 0;
-        margin: 0px 50px;
-    }
-
-    /* our-experienced-doctors section end */
-
-    /* blog-section start  */
-    .blog-bg {
-        height: 430px;
-    }
-    .blog-card .card-top {
-        padding: 10px 12px 5px 12px;
-    }
-    .blog-card .card-text {
-        padding: 0 12px 0px;
-    }
-
-    .blog-card .card-text .title-medium{
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .blog-card .blog-btn a {
-        width: 90%;
-    }
-
-    .blog-section .title {
-        padding: 20px 0 0 0;
-    }
-
-    .blog-section .title h4 {
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 0;
-    }
-
-    .blog-section .title .title-extralarge {
-        margin-bottom: 10px;
-    }
-
-    .blog-section .title p {
-        line-height: 14px;
-        padding: 0;
-    }
-    .blog-section .large-btn a {
-        padding: 6px 32px;
-        font-size: 10px;
-        line-height: 22px;
-    }
-    .blog-card .blog-btn a {
-        display: inline-block;
-        padding: 8px 40px;
-        background-color: #fd5364;
-        color: #ffffff;
-        font-weight: 700;
-        font-size: 14px;
-        transition: all 0.3s;
-    }
-
-
-    .card-area .large-btn a {
-        margin: 0 0 30px 0;
-    }
-
-    /* blog-section end  */
-
-    /* footer section start */
-    .home-contact-section {
-        padding: 75px 0 10px 0;
-    }
-    .home-contact-section .logo-text-block img {
-        width: 200px;
-        margin-bottom: 10px;
-    }
-    .home-contact-section .logo-text-block p {
-        font-size: 12px;
-        line-height: 22px;
-        margin-bottom: 10px;
-    }
-    .home-contact-section .title-extralarge {
-        font-size: 36px;
-        line-height: 44px;
-    }
-    .contact-default {
-        padding: 10px 0;
-    }
-    .home-contact-section .large-btn a {
-        padding: 6px 32px;
-        font-size: 10px;
-        line-height: 20px;
-    }
-    .input-item-wrap {
-        margin-bottom: 0;
-    }
-    .input-item {
-        width: 100%;
-    }
-    .input-item img {
-        right: 20px;
-    }
-    .text-block img {
-        width: 20px;
-        margin-bottom: 10px;
-    }
-
-    /* footer section end */
     /* start::map section  */
     .map-section {
         height: 200px;
         }
     /* end::map section  */
 
-    /* Base section start */
-    .base-section p {
-        margin-bottom: 10px;
-    }
-
-    .base-section .social-icons img {
-        float: left;
-    }
-
-    /* Base section end */
-
-
-    /* default page style start  */
-    .default-banner-section p {
-        font-size: 12px;
-        margin-bottom: 5px;
-    }
-
-    .default-banner-section .title-extralarge {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .default-banner-section .title {
-        padding: 30px 0 20px 0;
-    }
-
-    /* default page style end  */
-
     /* ==========================================================================
    *******    START :: DEFAULT PAGES DESIGN      ************
    ========================================================================== */
-   /* start::about page section  */
-   .about-page-section {
-    padding: 25px 0 20px 0;
-    }
-    /* end::about page section  */
     /* start::services page  */
     .page-banner-section{
-        height: 130px;
+        height: 200px;
     }
-    
     .page-banner-section .banner-content .title-extralarge {
-        font-size: 24px;
-        line-height: 28px;
-        padding: 40px 0 25px 0;
-    }
-    .banner-content .active {
-        border-bottom: 2px solid #9fcfff;
-        padding-bottom: 2px;
+        font-size: 36px;
+        line-height: 36px;
+        padding: 80px 0 40px 0;
     }
 
     .services-card .card-content {
         padding: 20px 5px 20px;
     }
-    .services-card .card-content .line,
-    .services-card .card-content p{
-        margin-bottom: 5px;
-    }
 
     .services-card .card-content h1 {
         padding: 0;
-        font-size: 14px;
-        margin-bottom: 5px;
+        font-size: 16px;
     }
 
     .card-content .time_and_desiges {
         font-size: 10px;
     }
+    .timeline-area::after {
+        height: 75%;
+      }
 
     /* end::services page  */
-
-    .text-block .title-large{
-        font-size: 22px;
-    }
-    .text-block p{
-        text-align: center;
-    }
-
-      /* start::contact us classes  */
-  .address-section ul{
-    padding: 20px 0 0;
-  }
-  .address-section ul li{
-    padding: 0  0 10px 0;
-    font-size: 12px;
-  }
-
-  /* end::contact classes  */
-  /* start::blog-content*/
+      /* start::blog-content*/
   .blog-content-writer .title-extralarge{
-    font-size: 22px;
-    line-height: 52px;
+    font-size: 28px;
+    line-height: 32px;
   }
   /* end::blog-content*/
+
+    /* ==========================================================================
+   *******    END :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
+
+
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        /* background-color: rgb(16, 123, 100) !important; */
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+
+    /* Top section start  */
+    .top-section .content {
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 10px;
+        padding: 5px 0;
+    }
+    .top-section .top-contact{
+        display: none;
+    }
+    .btn-extra-small a {
+        font-size: 8px;
+        padding: 3px 6px;
+        border-radius: 2px;
+    }
+
+    /* top section end  */
+
+    /* nav section start  */
+    .menu-bar{
+        display: none;
+    }
+    .mobilemenu{
+        display: block;
+    }
+    /* slick nav */
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu .slicknav_icon {
+        position: absolute;
+        right: 10px;
+        top: 2px;
+    }
+
+    .slicknav_menu {
+        background: none;
+        padding: 0;
+    }
+
+    .slicknav_btn {
+        position: relative;
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .slicknav_nav {
+        background-color: #03263e;
+        position: absolute;
+        right: 0px;
+        top: 100%;
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .slicknav_nav p {
+        padding: 10px 0 0 20px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+
+    .dropdown-menu-custom .dropdown-menu {
+        transform: translate3d(105px, 20px, 0px) !important;
+    }
+    .slicknav_nav .slicknav_row {
+        padding: 0;
+        margin: 0;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        background: #043150;
+        color: #fff;
+    }
+
+    .slicknav_nav a:hover {
+        background-color: transparent;
+        color: inherit;
+    }
+
+    .slicknav_nav a {
+        padding: 5px 0;
+        margin: 0;
+    }
+
+    /* slick nav */
+    .menu-item {
+        margin-top: 7px;
+    }
+    .nav-section .menu-item .fa-search {
+        margin-top: 18px;
+    }
+
+
+    /* banner section start */
+    .main-banner-section {
+        height: 580px;
+        background-color: rgba(3, 28, 51, 0.493);
+        background-blend-mode: darken;
+    }
+    .banner-text {
+        left: 3%;
+        top: 6%;
+    }
+    .banner-text .title-extralarge {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .title-small {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .banner-text .title-large {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+    
+
+    
+
+    /* Apoinment and hour section start */
+    .apoinment-hour-section {
+        margin-bottom: 1200px;
+    }
+    .apoinment-cards {
+        left: 0;
+        top: -160px;
+    }
+    .card-lg {
+        padding: 0;
+    }
+    .card-content {
+        padding: 35px 15px 15px;
+    }
+    .card-small {
+        margin-top: 50px;
+    }
+    .title-large {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    /* Apoinment and hour section end */
+
+
+    /* banner section end  */
+
+
+
+    /* about section start  */
+    .about-section .text-area {
+        padding: 20px 0;
+    }
+    .about-section {
+        background-position: 66% 50%;
+        padding: 20px 0;
+        background-color: rgba(32, 52, 71, 0.895);
+        background-blend-mode: darken;
+        color: #fff;
+    }
+    .about-section .title-extralarge {
+        color: #fff;
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .about-section .text-area .title-medium {
+        color: #fff;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .about-section .text-area p {
+        margin-bottom: 20px;
+    }
+    
+    /* about section end  */
+
+    /* service section start */
+    .box {
+        min-height: 330px;
+        padding: 30px 18px;
+    }
+    .service-section .box .box-content ul {
+        margin-bottom: 65px;
+    }
+    .service-section .box .box-content ul li {
+        padding: 15px 0;
+        margin-bottom: 10px;
+    }
+    .service-section .box .title-large {
+        margin-bottom: 5px;
+    }
+    /* service section end */
+
+
+    /* what we do section start */
+    .timeline-section {
+        height: 1400px;
+        padding: 41px 0 50px 0;
+    }
+    .what-we-do-section .text-area {
+        margin-bottom: 40px;
+    }
+    .what-we-do-section .text-area .title-extralarge {
+        font-size: 40px;
+        line-height: 55px;
+        margin-bottom: 20px;
+    }
+    .what-we-do-section .text-area .title-medium {
+        font-size: 16px;
+        line-height: 12px;
+    }
+    .timeline-area::after {
+        height: 70%;
+      }
+    
+      .timeline-content {
+        padding: 0 0 20px 40px;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    
+      .timeline-text {
+        margin-left: 65px;
+        color: #42a6e8;
+      }
+    
+      .timeline-text h3 {
+        margin-bottom: 2px;
+        font-size: 14px;
+      }
+    
+      .timeline-text h1 {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+      }
+    
+      .timeline-text p {
+        text-align: justify;
+        font-size: 12px;
+      }
+    
+      .t-lable {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        background-color: #f55060;
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        outline: 2px solid #37607b;
+        outline-offset: 0px;
+        text-align: center;
+        transform: rotate(45deg);
+        z-index: 10;
+      }
+    
+      .t-lable h4 {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 60px;
+        transform: rotate(-45deg);
+      }
+    
+
+    /* what we do section end */
+
+
+
+    /* our patient say obout us start */
+    .say-about-us {
+        padding: 60px  0 20px 0;
+    }
+    
+    .say-about-us .title-medium {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .say-about-us .title-extralarge {
+        font-size: 36px;
+        line-height: 44px;     
+        margin-bottom: 20px;
+    }
+    .about-container .profile-small-img,
+    .about-container .profile-name,
+    .about-container span {
+        margin-bottom: 10px;
+    }
+    .about-container .title-medium {
+        width: 80%;
+    }
+    /* our patient say obout us start */
+
+
+    /* Special Offers section start */
+    .special-offer {
+        padding: 100px 0 10px 0;
+    }
+    .title-extralarge {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .special-offer .text-area p {
+        width: 100%;
+    }
+    
+    /* Special Offers section end */
+
+
+    /* blog-section start  */
+    .blog-section .text-area {
+        padding: 50px 0;
+    }
+    .blog-section .title-medium {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .blog-section .title-extralarge {
+        font-size: 33px;
+        line-height: 45px;
+    }
+    .blog-section .text-area p {
+        padding: 0;
+    }
+
+    /* blog-section end  */
+
+    /*Home contact  section start */
+    .home-contact-section .logo-text-block img {
+        width: 220px;
+    }
+    .home-contact-section .title-medium {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .home-contact-section .logo-text-block {
+        margin-bottom: 35px;
+    }
+    .home-contact-section .title-extralarge {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .home-contact-section  .input-item {
+        width: 95%;
+    }
+
+    /* Home contact  section end */
+
+    /* start::map section  */
+    .map-section {
+        height: 200px;
+        }
+    /* end::map section  */
+
+    /* Footer section start */
+    .footer-section .row{
+        text-align: center;
+    }
+    .footer-section .social-icons {
+        margin-right: 25%;
+    }
+
+    /* Footer section end */
+
+    /* ==========================================================================
+   *******    START :: DEFAULT PAGES DESIGN      ************
+   ========================================================================== */
+   .page-banner-section {
+    height: 230px;
+    color: #fff;
+    }
+   .page-banner-section .banner-content .title-extralarge {
+    color: #fff;
+    padding: 70px 0 62px 0;
+    }
+    .page-section-p {
+        padding: 50px 0;
+    }
+    /* contact us page  */
+    .address-section ul li {
+        font-size: 14px;
+    }
+    .address-section ul {
+        margin-bottom: 30px;
+    }
+    .address-section .timetable ul li {
+        gap: 4%;
+        padding: 20px 0;
+    }
 
     /* ==========================================================================
    *******    END :: DEFAULT PAGES DESIGN      ************
@@ -1757,33 +693,10 @@ height: 22px;
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
-    body {
-        background-color: rgb(26, 3, 69) !important;
-    }
-
-    .footer-content .footer-top img {
-        width: auto;
+    body{
+        background-color: rgb(238, 255, 0);
     }
 
 
 }
 
-@media only screen and (max-width: 1200px) {
-    .slicknav_nav .slicknav_row {
-        padding: 0;
-        margin: 0;
-    }
-
-    .slicknav_nav .slicknav_row:hover {
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        border-radius: 0px;
-        background: #043150;
-        color: #fff;
-    }
-
-    .slicknav_nav a:hover {
-        background-color: transparent;
-        color: inherit;
-    }
-}
