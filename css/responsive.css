@@ -14,9 +14,6 @@
         left: 3%;
         top: 7%;
     }
-    .apoinment-cards {
-        left: 20px;
-    }
     .card-content {
         padding: 60px 30px 40px;
     }
@@ -156,10 +153,6 @@
     .banner-text .title-extralarge {
         font-size: 46px;
         line-height: 60px;
-    }
-    .apoinment-cards {
-        left: 26px;
-        top: -314px;
     }
     .card-lg {
         padding: 20px;
@@ -379,6 +372,27 @@
         margin-top: 18px;
     }
 
+    /* Start::search bar  */
+    .overlay-content {
+        top: 15%;
+        width: 98%;
+    }
+    .overlay input[type=text] {
+        font-size: 17px;
+        width: 70%;
+    }
+    .overlay button {
+        width: 28%;
+    }
+    .overlay .closebtn {
+        top: 20px;
+        right: 18px;;
+    }
+    .overlay .closebtn:hover{
+        color: #f55060;
+    }
+    /* Ends::search bar  */
+
 
     /* banner section start */
     .main-banner-section {
@@ -412,8 +426,7 @@
         margin-bottom: 1200px;
     }
     .apoinment-cards {
-        left: 0;
-        top: -160px;
+        top: -120px;
     }
     .card-lg {
         padding: 0;

@@ -419,14 +419,10 @@ input:focus {
 .main-banner-section{
   height:950px;
   width: 100%;
-  position: relative;
 }
 .banner-text{
+  padding-top: 100px;
   color: #fff;
-  display: inline-block;
-  position: absolute;
-  left: 16%;
-  top: 10%;
 }
 .banner-text .title-extralarge{
   font-size: 80px;
@@ -454,17 +450,19 @@ input:focus {
   margin-bottom: 580px;
 }
 .apoinment-cards{
+  width: 100%;
   position: absolute;
-  left: 292px;
+  left: 50%;
   top: -320px;
+  transform: translate(-50%,0);
 }
 .card-lg{
-  padding: 50px;
+  padding: 40px;
   margin-bottom: 10px;
 }
 .card-content{
   background-color: #ffffff;
-  padding: 70px 50px 50px;
+  padding: 50px 20px 40px;
 }
 .card-form input,select,textarea{
   background-color: #f5f7f6;
@@ -529,7 +527,7 @@ select:has(option:disabled:checked[hidden]) {
 .service-section{
 }
 .box{
-  padding: 70px 90px;
+  padding: 70px 50px;
   position: relative;
 }
 
@@ -539,9 +537,10 @@ select:has(option:disabled:checked[hidden]) {
   margin-bottom: 30px;
 }
 .service-section .box .box-content ul {
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 .service-section .box .box-content ul li{
+  display: block;
   padding: 10px 0;
   margin-bottom: 15px;
   color: #5f727f;
