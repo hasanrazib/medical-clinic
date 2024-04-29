@@ -1426,6 +1426,9 @@ padding: 0 15%;
   }
   /* end::team page classes  */
   /* start::contact us classes  */
+  .address-section {
+    padding-bottom: 0;
+  }
   .address-section ul{
     
   }

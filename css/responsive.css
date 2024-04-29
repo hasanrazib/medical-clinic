@@ -3,16 +3,12 @@
 
 
     body {
-        background-color: rgb(3, 78, 13);
+        /* background-color: rgb(3, 78, 13); */
         font-size: 14px;
         line-height: 20px;
     }
     .banner-text {
-        padding: 25px 0 0 0;
-    }
-    .banner-text {
-        left: 3%;
-        top: 7%;
+        padding: 85px 0 0 0;
     }
     .card-content {
         padding: 60px 30px 40px;
@@ -122,10 +118,10 @@
         background: #043150;
         color: #fff;
     }
-
     .slicknav_nav a:hover {
         background-color: transparent;
         color: inherit;
+        border-radius: 0;
     }
 
     .slicknav_nav a {
@@ -147,8 +143,7 @@
         height: 750px;
     }
     .banner-text {
-        left: 5%;
-        top: 6%;
+        padding: 60px 0 0;
     }
     .banner-text .title-extralarge {
         font-size: 46px;
@@ -177,10 +172,8 @@
         margin-bottom: 445px;
     }
     .about-section {
+        background-position: 33% 50% !important;
         padding:50px 0;
-        background-color: rgba(3, 18, 32, 0.333);
-        background-blend-mode: darken;
-        color: #fff;
     }
     .about-section .text-area {
         padding: 0;
@@ -709,6 +702,9 @@
     body{
         background-color: rgb(238, 255, 0);
     }
+    .container {
+        max-width: 576px;
+    }
     .banner-text {
         padding-top: 75px;
     }
@@ -747,6 +743,15 @@
     .accordion-button {
         padding: 13px 0;
         font-size: 14px;
+    }
+    .price-card {
+        margin: 0 80px;
+    }
+    .blog-card {
+        margin: 0 80px;
+    }
+    .footer-section .social-icons {
+        margin-right: 35%;
     }
 
 }
