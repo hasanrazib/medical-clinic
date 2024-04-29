@@ -271,7 +271,7 @@
     body {
         /* background-color: rgb(16, 123, 100) !important; */
         font-size: 14px;
-        line-height: 26px;
+        line-height: 24px;
     }
 
 
@@ -709,7 +709,45 @@
     body{
         background-color: rgb(238, 255, 0);
     }
-
+    .banner-text {
+        padding-top: 75px;
+    }
+    .apoinment-cards {
+        top: -160px;
+    }
+    .card-form input, select, textarea {
+        padding: 10px;
+        border-radius: 2px;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .card-small {
+        margin-top: 0;
+    }
+    .card-form textarea {
+        height: 80px;
+    }
+    .large-btn a {
+        font-size: 14px
+    }
+    .apoinment-hour-section {
+        margin-bottom: 370px;
+    }
+    .title-large {
+        font-size: 26px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .timeline-section {
+        height: 880px;
+    }
+    .facality-skills {
+        margin-top: -120px;
+    }
+    .accordion-button {
+        padding: 13px 0;
+        font-size: 14px;
+    }
 
 }
 
