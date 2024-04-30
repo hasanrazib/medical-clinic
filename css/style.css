@@ -200,7 +200,7 @@ input:focus {
     }
   
     .top-section .content {
-      height: 35px;
+      height: 34px;
       display: flex;
       align-items: center;
       justify-content: space-between;
